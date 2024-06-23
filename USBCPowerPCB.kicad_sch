@@ -1669,7 +1669,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0ba7757f-854f-4573-bb78-e140dbbd3450")
-		(property "Sheetname" "Current Monitoring & Protection"
+		(property "Sheetname" "Current Monitoring"
 			(at 165.608 46.7864 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "current_protection.kicad_sch"
+		(property "Sheetfile" "current_monitoring.kicad_sch"
 			(at 165.608 73.9906 0)
 			(effects
 				(font
