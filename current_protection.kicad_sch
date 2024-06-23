@@ -4,5 +4,33 @@
 	(generator_version "8.0")
 	(uuid "efd96519-622a-4b61-80da-64dad713d9a0")
 	(paper "A4")
+	(title_block
+		(company "Longhorn Racing Solar")
+		(comment 1 "https://cloud.wikis.utexas.edu/wiki/x/-qKvAQ")
+	)
 	(lib_symbols)
+	(hierarchical_label "5V_IN"
+		(shape input)
+		(at 102.87 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8522a300-5b89-4f17-901d-515b97b122b1")
+	)
+	(hierarchical_label "12V_IN"
+		(shape input)
+		(at 102.87 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb034c68-d1f4-4f4d-a877-8525dde0488f")
+	)
 )

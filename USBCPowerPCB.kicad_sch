@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "f58400c5-df4b-4929-8d2b-33c0fe23fcd9")
 	(paper "A4")
+	(title_block
+		(title "USB Type-C Power Distribution Board")
+		(company "Longhorn Racing Solar")
+		(comment 1 "https://cloud.wikis.utexas.edu/wiki/x/-qKvAQ")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -1031,6 +1036,12 @@
 		)
 	)
 	(junction
+		(at 120.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "420557e4-b12c-4c1f-98a4-497a8dcd5cce")
+	)
+	(junction
 		(at 57.15 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1112,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 36.83) (xy 123.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280c1192-4f18-42b4-8190-e3cb17b08453")
+	)
+	(wire
+		(pts
 			(xy 38.1 76.2) (xy 38.1 78.74)
 		)
 		(stroke
@@ -1122,6 +1143,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a1b093-9642-4810-8ece-12f0982ff44b")
+	)
+	(wire
+		(pts
 			(xy 57.15 34.29) (xy 57.15 38.1)
 		)
 		(stroke
@@ -1129,6 +1160,16 @@
 			(type default)
 		)
 		(uuid "73508567-c15e-4a1c-9bc2-ede005fceb2d")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b39283f-e14c-4663-9deb-a6ca125e3f3d")
 	)
 	(wire
 		(pts
@@ -1162,13 +1203,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 88.9 41.91)
+			(xy 90.17 40.64) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8dc6d01-98f7-497b-857f-cacd1a91fa12")
+		(uuid "dc3a6c61-9347-42d7-9652-bfd6d8c79bb1")
+	)
+	(wire
+		(pts
+			(xy 118.11 36.83) (xy 120.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48c752f-7558-412d-8da6-8e6e35cec227")
 	)
 	(text "USB Type-C Receptacle"
 		(exclude_from_sim no)
@@ -1182,7 +1233,7 @@
 		(uuid "87858c3b-5430-4be5-bb50-b87d22a041ef")
 	)
 	(label "VBUS_IN"
-		(at 87.63 41.91 180)
+		(at 90.17 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1639,14 +1690,14 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 124.714 65.532)
-		(size 31.75 29.718)
+		(at 123.19 62.23)
+		(size 26.67 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1657,7 +1708,7 @@
 		)
 		(uuid "2bd234b3-44b9-429b-8fa2-bd467a911428")
 		(property "Sheetname" "5V Buck Converter"
-			(at 124.714 64.8204 0)
+			(at 123.19 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1717,7 @@
 			)
 		)
 		(property "Sheetfile" "5v_buck_converter.kicad_sch"
-			(at 124.714 95.8346 0)
+			(at 123.19 87.7066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,17 +1725,37 @@
 				(justify left top)
 			)
 		)
+		(pin "VBUS_IN" input
+			(at 123.19 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e4c9a4f-ceb0-4956-b4f0-c6b542a2d9e3")
+		)
+		(pin "5V_OUT" output
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b40221f-e92e-489d-a47e-9172a41a848f")
+		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 88.9 29.464)
-		(size 26.416 24.892)
+		(at 91.44 27.94)
+		(size 26.67 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1695,7 +1766,7 @@
 		)
 		(uuid "4ed27f5f-caef-4817-8da2-6ac4f08dfb73")
 		(property "Sheetname" "Power Delivery Controller"
-			(at 88.9 28.7524 0)
+			(at 91.44 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1775,7 @@
 			)
 		)
 		(property "Sheetfile" "pd_controller.kicad_sch"
-			(at 88.9 54.9406 0)
+			(at 91.44 53.4166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1784,7 @@
 			)
 		)
 		(pin "VBUS_IN" input
-			(at 88.9 41.91 180)
+			(at 91.44 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1794,7 @@
 			(uuid "44f6d1a8-e2aa-4538-97fc-e288296d293e")
 		)
 		(pin "VBUS_OUT" output
-			(at 115.316 38.1 0)
+			(at 118.11 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1804,7 @@
 			(uuid "5f7679ed-aac5-4442-b99d-72d78f7bbfb2")
 		)
 		(pin "SAFE_5V_OUT" output
-			(at 115.316 46.99 0)
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,8 +1822,8 @@
 		)
 	)
 	(sheet
-		(at 125.222 28.956)
-		(size 30.988 29.464)
+		(at 123.19 27.94)
+		(size 26.67 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1763,7 +1834,7 @@
 		)
 		(uuid "b940d069-c216-4a03-b768-6eaa211ab690")
 		(property "Sheetname" "12V Buck Converter"
-			(at 125.222 28.2444 0)
+			(at 123.19 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,13 +1843,33 @@
 			)
 		)
 		(property "Sheetfile" "12v_buck_converter.kicad_sch"
-			(at 125.222 59.0046 0)
+			(at 123.19 53.4166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "VBUS_IN" input
+			(at 123.19 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d13cb00f-328e-43d2-bfc9-787ca9ed1eb9")
+		)
+		(pin "12V_OUT" output
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3fda5691-e1e0-4634-8f77-be84c95df633")
 		)
 		(instances
 			(project "USBCPowerPCB"
