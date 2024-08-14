@@ -1260,228 +1260,6 @@
 				)
 			)
 		)
-		(symbol "INA2180_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "INA2180"
-				(at 6.35 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1719770112880&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA180%253Fbm-verify%253DAAQAAAAJ_____w-LfN96M5ppw-TgS1zgtOHcTgUCdYwGWxWEQHQfNggHqibuiKL95HOX0-p9zm7599cr2Ef8ccPV1zseVZ1aGsFDm1RKY3cevtDPTnj4QwgauVvaQkKNNUU44mfWKtIIsMxFMJkgdOGIzCK2z3VktFqOHqJa-ocwA2ZbrMw5NYtDfyh3US1t_9VRezqAyZoD1PLH0d52hY3PxWGKd1VVb9RDn0-pRY_3tB2frXf6PUIPAQdg7Bv_j5iUOESeKlwCbuZMCoMHYIVZUef89Rq5PSD9RQgkCB_33FrGlUfFuqqwqP7NTkNL8xlSrw4tBJ3IlQB6CrneDvSM4LI8acctTHvM10_Cnc73ETRxj87jy3MxeIxpONjVIuV2qGrgsQYtrrzx8utLjYv5usg"
-				(at -3.81 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two-Channel INAx180 Current Sense Amplifier"
-				(at -3.81 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "INA2180_1_0_0"
-				(pin power_in line
-					(at 2.54 -8.255 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 8.255 270)
-					(length 3.81)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA2180_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 8.89) (xy -3.81 -8.89) (xy 8.89 0) (xy -3.81 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "INA2180_1_1_1"
-				(pin output line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA2180_1_2_1"
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:LP5912-3.3DRV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3266,12 +3044,6 @@
 		(uuid "2edec46d-5c5c-44ec-b2bf-cea9b2a4ac42")
 	)
 	(junction
-		(at 34.29 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "497c171f-38ab-4cd9-a0cb-1cb1e68839a9")
-	)
-	(junction
 		(at 60.96 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3290,22 +3062,10 @@
 		(uuid "8e82aab8-2f0b-474c-a60e-843bb657f154")
 	)
 	(junction
-		(at 34.29 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b28b9614-474b-42d6-84e8-b261e25376e7")
-	)
-	(junction
 		(at 149.225 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3fa238f-f29f-4cd9-a919-b0fdb700b4d3")
-	)
-	(junction
-		(at 34.29 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b68f7111-9a2d-4121-9a24-5e1f5f214e9c")
 	)
 	(junction
 		(at 104.14 124.46)
@@ -3537,26 +3297,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 129.54) (xy 34.29 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a507159-6f58-4283-bc81-52620779e858")
-	)
-	(wire
-		(pts
-			(xy 34.29 133.35) (xy 34.29 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c016797-5b1b-4afa-842d-25e3dc6b6b04")
-	)
-	(wire
-		(pts
 			(xy 173.99 105.41) (xy 175.26 105.41)
 		)
 		(stroke
@@ -3574,16 +3314,6 @@
 			(type default)
 		)
 		(uuid "32b4106e-4411-434b-a645-52b944e35271")
-	)
-	(wire
-		(pts
-			(xy 33.02 132.08) (xy 34.29 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c0f115-5d1e-4443-8f22-abb418435540")
 	)
 	(wire
 		(pts
@@ -3674,16 +3404,6 @@
 			(type default)
 		)
 		(uuid "527d1efc-f158-4916-9af2-836bb3beb739")
-	)
-	(wire
-		(pts
-			(xy 39.37 130.81) (xy 34.29 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56931f76-e280-4bce-bb2a-ff2d32a0985f")
 	)
 	(wire
 		(pts
@@ -3907,16 +3627,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 133.985) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce878d0-467e-48a2-b746-b0bddad251db")
-	)
-	(wire
-		(pts
 			(xy 130.175 36.83) (xy 142.875 36.83)
 		)
 		(stroke
@@ -4037,16 +3747,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 116.84) (xy 50.8 117.475)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984f64f2-3b60-435f-98ad-27617a19eca7")
-	)
-	(wire
-		(pts
 			(xy 165.1 120.65) (xy 166.37 120.65)
 		)
 		(stroke
@@ -4097,16 +3797,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 120.65) (xy 34.29 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1cc37e6-b027-4608-8ab2-cc3012d26d3a")
-	)
-	(wire
-		(pts
 			(xy 91.44 90.17) (xy 92.71 90.17)
 		)
 		(stroke
@@ -4137,16 +3827,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 120.65) (xy 34.29 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45eb0d7-665c-4ef6-be00-1d13b0bd1cae")
-	)
-	(wire
-		(pts
 			(xy 260.35 114.3) (xy 260.35 115.57)
 		)
 		(stroke
@@ -4154,16 +3834,6 @@
 			(type default)
 		)
 		(uuid "b77844bd-b7bb-4a98-b5f7-2cb25a9722e3")
-	)
-	(wire
-		(pts
-			(xy 34.29 130.81) (xy 34.29 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83da900-d03d-4681-bb98-3abda39c0edc")
 	)
 	(wire
 		(pts
@@ -4197,16 +3867,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 39.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb647364-4dc6-4a2f-b6b0-3658dbf3b73d")
-	)
-	(wire
-		(pts
 			(xy 175.26 90.17) (xy 173.99 90.17)
 		)
 		(stroke
@@ -4227,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 39.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00a2996-3572-4391-b5ef-f5c08cbd6f82")
-	)
-	(wire
-		(pts
 			(xy 175.26 86.36) (xy 177.8 86.36)
 		)
 		(stroke
@@ -4254,16 +3904,6 @@
 			(type default)
 		)
 		(uuid "c3239fae-2e6a-4fd3-a42b-01c4f1fdde55")
-	)
-	(wire
-		(pts
-			(xy 34.29 120.65) (xy 39.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5356e76-a1d5-4252-b14d-322e944dbd9e")
 	)
 	(wire
 		(pts
@@ -4347,16 +3987,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 133.35) (xy 34.29 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda6addf-58bc-4800-bfad-924647d35448")
-	)
-	(wire
-		(pts
 			(xy 166.37 36.83) (xy 173.99 36.83)
 		)
 		(stroke
@@ -4384,36 +4014,6 @@
 			(type default)
 		)
 		(uuid "e86019a6-00fa-48db-bb7a-04c75c32e4a2")
-	)
-	(wire
-		(pts
-			(xy 41.91 128.27) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea39a647-dbe0-4062-9450-d78d29c038e1")
-	)
-	(wire
-		(pts
-			(xy 59.69 125.73) (xy 63.5 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb165740-339b-4527-ae35-18f8836a843b")
-	)
-	(wire
-		(pts
-			(xy 41.91 123.19) (xy 39.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb734084-6e9b-4273-9bff-283b6d7da9a7")
 	)
 	(wire
 		(pts
@@ -4493,7 +4093,7 @@
 	)
 	(rectangle
 		(start 20.32 69.85)
-		(end 77.47 142.24)
+		(end 77.47 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -4701,17 +4301,6 @@
 		)
 		(uuid "793584fc-69f9-4192-8ceb-b8d3cc885068")
 	)
-	(label "5V_LOAD"
-		(at 33.02 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f4126b6-66d6-4a5b-b8ca-781f20b0b176")
-	)
 	(label "G"
 		(at 274.32 104.14 0)
 		(fields_autoplaced yes)
@@ -4777,17 +4366,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2944bd1-69f7-462d-b319-55984a532677")
-	)
-	(label "5V_LOAD"
-		(at 50.8 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a97078bd-8c2a-4c62-bc02-dd7f3ebd2349")
 	)
 	(label "UPDI"
 		(at 152.4 120.65 180)
@@ -4921,17 +4499,6 @@
 		)
 		(uuid "d6617981-0ac8-44ec-a834-17611fd0ec1b")
 	)
-	(label "5V_ISENSE"
-		(at 63.5 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da2d2a0e-44ed-4f5a-ad64-fdeb28485b6a")
-	)
 	(label "E"
 		(at 274.32 99.06 0)
 		(fields_autoplaced yes)
@@ -5021,30 +4588,6 @@
 		)
 		(uuid "7c6e4fd9-66ca-46d9-bf31-7228af569253")
 	)
-	(hierarchical_label "5V_IN"
-		(shape input)
-		(at 33.02 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8522a300-5b89-4f17-901d-515b97b122b1")
-	)
-	(hierarchical_label "5V_LOAD"
-		(shape output)
-		(at 33.02 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac58ebd8-e5a6-4965-9b7b-7d4f5a7ad2e5")
-	)
 	(hierarchical_label "12V_IN"
 		(shape input)
 		(at 33.02 78.74 180)
@@ -5056,140 +4599,6 @@
 			(justify right)
 		)
 		(uuid "eb034c68-d1f4-4f4d-a877-8525dde0488f")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03548c43-4d27-4885-bd0b-87d41eea977a")
-		(property "Reference" "#PWR035"
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f41d1c2a-8654-4d4c-9492-2a67b7a0d7a1")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 34.29 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "040b91d5-65ec-48ef-a2d6-7251a870dad8")
-		(property "Reference" "R38"
-			(at 28.448 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "53m"
-			(at 28.448 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.512 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C313-1141758.pdf"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19408b06-d614-4bdc-a2c6-2265d016fe71")
-		)
-		(pin "1"
-			(uuid "833d76e1-12c6-4796-9757-cc445c24214f")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "utsvt-misc:LTC-4627JS")
@@ -7571,92 +6980,6 @@
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450"
 					(reference "#PWR049")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "INA2180_1")
-		(lib_id "utsvt-chips:INA2180")
-		(at 48.26 125.73 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e119cea1-7f36-4477-bb37-aa7b79c82a6c")
-		(property "Reference" "U2"
-			(at 57.658 119.2529 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA2180"
-			(at 57.658 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1719770112880&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA180%253Fbm-verify%253DAAQAAAAJ_____w-LfN96M5ppw-TgS1zgtOHcTgUCdYwGWxWEQHQfNggHqibuiKL95HOX0-p9zm7599cr2Ef8ccPV1zseVZ1aGsFDm1RKY3cevtDPTnj4QwgauVvaQkKNNUU44mfWKtIIsMxFMJkgdOGIzCK2z3VktFqOHqJa-ocwA2ZbrMw5NYtDfyh3US1t_9VRezqAyZoD1PLH0d52hY3PxWGKd1VVb9RDn0-pRY_3tB2frXf6PUIPAQdg7Bv_j5iUOESeKlwCbuZMCoMHYIVZUef89Rq5PSD9RQgkCB_33FrGlUfFuqqwqP7NTkNL8xlSrw4tBJ3IlQB6CrneDvSM4LI8acctTHvM10_Cnc73ETRxj87jy3MxeIxpONjVIuV2qGrgsQYtrrzx8utLjYv5usg"
-			(at 44.45 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two-Channel INAx180 Current Sense Amplifier"
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "65509ab3-db41-4c4f-948e-317fb9d70010")
-		)
-		(pin "6"
-			(uuid "2c5c0038-1bfe-4033-b68b-4d799bd87f0b")
-		)
-		(pin "4"
-			(uuid "a1ba6d0c-7ebb-4c77-9590-d38a32ce8cea")
-		)
-		(pin "2"
-			(uuid "727ee728-d4bc-4339-8b31-0c85e43bf087")
-		)
-		(pin "7"
-			(uuid "250df644-9c34-4d4e-a6e3-62e717ad1475")
-		)
-		(pin "3"
-			(uuid "9f392b94-a6e3-4d10-900c-81b59c6d3b5b")
-		)
-		(pin "8"
-			(uuid "64d8cd04-8e6a-4470-ac69-1958a272161b")
-		)
-		(pin "1"
-			(uuid "39a5abe2-4115-4b5f-8b8f-442f3159b65b")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
