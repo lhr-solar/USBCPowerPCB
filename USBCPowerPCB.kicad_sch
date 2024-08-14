@@ -802,6 +802,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1113,6 +1252,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 62.23) (xy 200.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8cea12-d197-4ab1-a6f1-937902c4ac26")
+	)
+	(wire
+		(pts
 			(xy 53.34 45.72) (xy 55.88 45.72)
 		)
 		(stroke
@@ -1133,6 +1282,36 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 59.69) (xy 165.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae95867-4a47-4391-8c17-20df1e6c6e6a")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 199.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305074ad-8358-4275-ad47-b084be46c3cd")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47799fd2-9f96-4652-9857-7e289fdbca2c")
+	)
+	(wire
+		(pts
 			(xy 38.1 76.2) (xy 38.1 78.74)
 		)
 		(stroke
@@ -1140,6 +1319,16 @@
 			(type default)
 		)
 		(uuid "4b0a6e10-ce8a-4373-a0da-96be6b474511")
+	)
+	(wire
+		(pts
+			(xy 158.75 36.83) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d25feac-9934-46c6-b05e-bfab370f223f")
 	)
 	(wire
 		(pts
@@ -1153,6 +1342,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 66.04) (xy 199.39 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c071c28-041b-4c60-91d5-54e5b26c123e")
+	)
+	(wire
+		(pts
 			(xy 57.15 34.29) (xy 57.15 38.1)
 		)
 		(stroke
@@ -1160,6 +1359,16 @@
 			(type default)
 		)
 		(uuid "73508567-c15e-4a1c-9bc2-ede005fceb2d")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 200.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8148fa07-bbb4-46dc-8399-3f4df0db9f85")
 	)
 	(wire
 		(pts
@@ -1173,6 +1382,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8ce93e-3c8b-4970-94a9-8ffb5446473e")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 64.77 38.1)
 		)
 		(stroke
@@ -1180,6 +1399,36 @@
 			(type default)
 		)
 		(uuid "a529e0fb-6253-4aa1-8a27-429de1b45c18")
+	)
+	(wire
+		(pts
+			(xy 191.77 53.34) (xy 200.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5304f30-fa8b-4e0e-bd48-88c69863c729")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 158.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4842ba3-f0a5-41bd-8b54-267b86027a62")
+	)
+	(wire
+		(pts
+			(xy 199.39 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c128ed6d-f4d3-4ced-95a1-2ef9c698f34e")
 	)
 	(wire
 		(pts
@@ -1220,6 +1469,16 @@
 			(type default)
 		)
 		(uuid "e48c752f-7558-412d-8da6-8e6e35cec227")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5f1c2c-a7c2-4572-8f68-38418fb415c3")
 	)
 	(text "USB Type-C Receptacle"
 		(exclude_from_sim no)
@@ -1275,6 +1534,76 @@
 			(justify left bottom)
 		)
 		(uuid "86f01ac6-ceff-4efb-83dc-9736c6f737d5")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 205.74 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a8ea52-69ef-43bd-aecc-1dcb096fa9c6")
+		(property "Reference" "J3"
+			(at 208.28 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 208.28 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86ccfc13-6b71-4d73-8952-c4c5c0a7dcc6")
+		)
+		(pin "1"
+			(uuid "650c5674-db91-440c-985c-c7c9e7f76d33")
+		)
+		(instances
+			(project ""
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1347,6 +1676,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 199.39 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "296db51e-eaf6-40b0-a4d8-689185a57cb4")
+		(property "Reference" "#PWR050"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c5dda3-6e37-4c28-bb74-0eff4cec929d")
+		)
+		(instances
+			(project ""
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 205.74 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c66636c-0470-4299-88f7-ede7251bed4d")
+		(property "Reference" "J4"
+			(at 208.28 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 208.28 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb64a179-d7d8-47a7-98f2-e154a74eeddb")
+		)
+		(pin "1"
+			(uuid "14fd579e-c92b-4865-bd56-adbe821a7bb2")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 57.15 34.29 0)
 		(unit 1)
@@ -1407,6 +1871,71 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ad92e93-0c95-442f-8463-8c7a2e193a80")
+		(property "Reference" "#PWR051"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63868366-1699-4ae1-934c-161f5afa83af")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1658,45 +2187,7 @@
 		)
 	)
 	(sheet
-		(at 165.608 47.498)
-		(size 26.416 25.908)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0ba7757f-854f-4573-bb78-e140dbbd3450")
-		(property "Sheetname" "Current Monitoring"
-			(at 165.608 46.7864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "current_monitoring.kicad_sch"
-			(at 165.608 73.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 123.19 62.23)
+		(at 123.19 60.96)
 		(size 26.67 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -1706,9 +2197,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2bd234b3-44b9-429b-8fa2-bd467a911428")
-		(property "Sheetname" "5V Buck Converter"
-			(at 123.19 61.5184 0)
+		(uuid "01d27e83-9627-42d8-8cf9-628e44513f14")
+		(property "Sheetname" "12V Buck Converter"
+			(at 123.19 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,8 +2207,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5v_buck_converter.kicad_sch"
-			(at 123.19 87.7066 0)
+		(property "Sheetfile" "12v_buck_converter.kicad_sch"
+			(at 123.19 86.4366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,10 +2224,146 @@
 				)
 				(justify left)
 			)
+			(uuid "86649760-1626-4ace-bebe-e5897b784e0b")
+		)
+		(pin "12V_OUT" output
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a755446-0214-4647-842d-fbd709e1eab1")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 45.72)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ba7757f-854f-4573-bb78-e140dbbd3450")
+		(property "Sheetname" "Current Monitoring"
+			(at 165.1 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_monitoring.kicad_sch"
+			(at 165.1 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_IN" input
+			(at 165.1 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "788d449c-dfa3-43ca-82ea-8d3a9454a9b2")
+		)
+		(pin "12V_LOAD" output
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6623950-23b8-4a46-b41c-ae5aa8e7b5bb")
+		)
+		(pin "12V_IN" input
+			(at 165.1 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7433351-2508-4a87-aa6b-a8ab0d687fae")
+		)
+		(pin "5V_LOAD" output
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2cef9df0-64f1-45ad-8c5a-5b2575d47514")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 29.21)
+		(size 26.67 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bd234b3-44b9-429b-8fa2-bd467a911428")
+		(property "Sheetname" "5V Buck Converter"
+			(at 123.19 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_buck_converter.kicad_sch"
+			(at 123.19 54.6866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS_IN" input
+			(at 123.19 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 			(uuid "8e4c9a4f-ceb0-4956-b4f0-c6b542a2d9e3")
 		)
 		(pin "5V_OUT" output
-			(at 149.86 69.85 0)
+			(at 149.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,64 +2444,6 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 123.19 27.94)
-		(size 26.67 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b940d069-c216-4a03-b768-6eaa211ab690")
-		(property "Sheetname" "12V Buck Converter"
-			(at 123.19 27.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12v_buck_converter.kicad_sch"
-			(at 123.19 53.4166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VBUS_IN" input
-			(at 123.19 36.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d13cb00f-328e-43d2-bfc9-787ca9ed1eb9")
-		)
-		(pin "12V_OUT" output
-			(at 149.86 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3fda5691-e1e0-4634-8f77-be84c95df633")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "3")
 				)
 			)
 		)
