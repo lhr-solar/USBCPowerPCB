@@ -3780,17 +3780,6 @@
 		)
 		(uuid "50187b80-133c-4eda-a852-847c9a498517")
 	)
-	(label "CC1"
-		(at 113.03 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56c74ab3-8a9f-4071-a554-062962376387")
-	)
 	(label "VBUS_FET_EN"
 		(at 49.53 60.96 180)
 		(fields_autoplaced yes)
@@ -3823,17 +3812,6 @@
 			(justify right bottom)
 		)
 		(uuid "73c9faaa-b9a8-48ea-a7d9-4852734bad66")
-	)
-	(label "CC2"
-		(at 113.03 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "960edd7d-a6ec-4ba6-843f-5f0e4570ac3f")
 	)
 	(label "VBUS_FET_EN"
 		(at 190.5 77.47 180)
@@ -3948,6 +3926,30 @@
 			(justify left)
 		)
 		(uuid "4455a938-533c-431e-b33f-5ad01fab5094")
+	)
+	(hierarchical_label "CC1"
+		(shape input)
+		(at 113.03 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "509ba1dc-ceff-446b-9dec-789ee380c8c9")
+	)
+	(hierarchical_label "CC2"
+		(shape input)
+		(at 113.03 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c2adaa2-35f9-4fd4-84ba-49f3e55f2997")
 	)
 	(hierarchical_label "VBUS_OUT"
 		(shape output)

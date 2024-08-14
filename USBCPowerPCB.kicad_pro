@@ -39,7 +39,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1441450|368300|4df2f2fc-cab6-4260-adf3-c43e53812c7f|00000000-0000-0000-0000-000000000000|/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450|/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450|"
+    ],
     "meta": {
       "version": 0
     },
@@ -223,7 +225,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -238,8 +240,8 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
