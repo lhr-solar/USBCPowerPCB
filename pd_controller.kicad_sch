@@ -2445,12 +2445,6 @@
 		(uuid "b3e87d81-71b2-4f74-b28d-d02ae207adc2")
 	)
 	(junction
-		(at 35.56 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b483c1-4c23-4651-ab7b-92bc5bfe44fd")
-	)
-	(junction
 		(at 72.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3034,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 125.73) (xy 41.91 125.73)
+			(xy 27.94 125.73) (xy 43.18 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3051,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "78aae07f-2a75-47c5-8eb7-2788dc5f76c5")
-	)
-	(wire
-		(pts
-			(xy 27.94 78.74) (xy 27.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8100b77f-840c-4b27-b9b6-c421ba7166a8")
 	)
 	(wire
 		(pts
@@ -3324,16 +3308,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 78.74) (xy 35.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d5f9ff-257b-4265-8a43-b98528fe0c6a")
-	)
-	(wire
-		(pts
 			(xy 203.2 92.71) (xy 203.2 100.33)
 		)
 		(stroke
@@ -3454,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 60.96 125.73)
+			(xy 48.26 125.73) (xy 63.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +3982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0428f0f4-f340-4b7c-b947-1ff7ea4d1e0e")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 35.306 84.074 0)
 			(effects
 				(font
@@ -4024,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.878 85.09 90)
 			(effects
 				(font
@@ -4060,7 +4034,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0865c5b8-449f-424f-a0fe-286cd8df76ee")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 120.65 69.85 0)
 			(effects
 				(font
@@ -4125,7 +4099,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4141,7 +4115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e9e1852-bbae-4622-bdbe-95a134f47021")
-		(property "Reference" "Q5"
+		(property "Reference" "Q2"
 			(at 215.9 106.6801 0)
 			(effects
 				(font
@@ -4207,7 +4181,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "Q5")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11dd8da9-45a1-46a3-bb0e-c9922cd1e01c")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 198.12 57.1499 0)
 			(effects
 				(font
@@ -4242,7 +4216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 202.438 58.42 90)
 			(effects
 				(font
@@ -4278,7 +4252,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4310,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CYPD3177-24LQXQT_CYP"
+		(property "Footprint" "UTSVT_ICs:CYPD3177-24LQXQT_CYP"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -4433,7 +4407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e265067-5224-4a54-ae94-900323ca801c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 102.87 118.11 0)
 			(effects
 				(font
@@ -4483,7 +4457,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e8f2641-840f-4004-a220-baf218aa3e58")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR010"
 			(at 48.26 143.51 0)
 			(effects
 				(font
@@ -4549,7 +4523,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR020")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2279b604-899f-469c-a2c2-41c31b105410")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR019"
 			(at 137.16 80.01 0)
 			(effects
 				(font
@@ -4614,7 +4588,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR03")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4629,7 +4603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38ee92a9-359b-4e0c-a847-c96a842e9814")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 66.802 130.81 0)
 			(effects
 				(font
@@ -4647,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.612 132.08 90)
 			(effects
 				(font
@@ -4683,7 +4657,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c13ab8e-ca4d-4233-ae1b-74f4eb4e43f1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 264.16 52.07 0)
 			(effects
 				(font
@@ -4748,7 +4722,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR014")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4764,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42e8187c-ffb8-4dfa-8db1-2f58b73b7519")
-		(property "Reference" "Q5"
+		(property "Reference" "Q2"
 			(at 215.9 91.4399 0)
 			(effects
 				(font
@@ -4830,7 +4804,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "Q5")
+					(reference "Q2")
 					(unit 2)
 				)
 			)
@@ -4845,7 +4819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a00902e-1034-4879-9822-6b4e061f4c23")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -4895,7 +4869,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4911,7 +4885,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4a5e59de-26db-4406-bc6f-424ffa3ffb3d")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 70.866 119.38 0)
 			(effects
 				(font
@@ -4929,7 +4903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.168 120.65 90)
 			(effects
 				(font
@@ -4965,7 +4939,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.8048 67.31 0)
 			(effects
 				(font
@@ -5120,7 +5094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57f199d3-837b-4aad-a654-32ace48be0b3")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 160.528 62.738 0)
 			(effects
 				(font
@@ -5136,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.2448 59.69 0)
 			(effects
 				(font
@@ -5172,7 +5146,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5162,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "5fa09262-ead6-4c9c-b4a7-032282f825fa")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 97.79 119.38 0)
 			(effects
 				(font
@@ -5206,7 +5180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.648 120.65 90)
 			(effects
 				(font
@@ -5242,7 +5216,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe72358-0ea6-4eee-962b-504d9943a9bb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 72.39 143.51 0)
 			(effects
 				(font
@@ -5308,7 +5282,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.3048 63.5 0)
 			(effects
 				(font
@@ -5390,7 +5364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71080b47-5176-477d-9170-f3840f4f83b9")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 90.932 117.602 0)
 			(effects
 				(font
@@ -5399,7 +5373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "ISNK_COARSE_TP"
 			(at 96.266 120.142 0)
 			(effects
 				(font
@@ -5408,7 +5382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 93.98 125.73 0)
 			(effects
 				(font
@@ -5441,7 +5415,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5449,15 +5423,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 60.96 125.73 0)
+		(at 63.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7579f840-dc5b-4da1-9a71-492098337bb1")
-		(property "Reference" "TP2"
-			(at 62.992 117.602 0)
+		(property "Reference" "TP4"
+			(at 65.532 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,8 +5439,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 62.992 120.142 0)
+		(property "Value" "VBUS_MAX_TP"
+			(at 67.564 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,8 +5448,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 125.73 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 68.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 125.73 0)
+			(at 68.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +5467,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 60.96 125.73 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5481,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5523,7 +5497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a23803-9153-4e60-9e2a-707097d86f6b")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 30.48 129.5399 0)
 			(effects
 				(font
@@ -5541,7 +5515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 130.81 90)
 			(effects
 				(font
@@ -5577,7 +5551,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ad56cbe-120a-4470-9e11-a4e0e7c9e8b8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -5642,7 +5616,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c32049d-c666-4e54-89c9-2c6e4e5beb6a")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 30.48 119.3799 0)
 			(effects
 				(font
@@ -5676,7 +5650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 120.65 90)
 			(effects
 				(font
@@ -5712,7 +5686,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5728,7 +5702,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8eabaf49-209c-4406-a967-506b3676920c")
-		(property "Reference" "R17"
+		(property "Reference" "R6"
 			(at 43.18 129.54 0)
 			(effects
 				(font
@@ -5746,7 +5720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 50.038 130.81 90)
 			(effects
 				(font
@@ -5782,74 +5756,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 27.94 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9063fa15-b8f0-4ec4-a51b-7e98dd88ead7")
-		(property "Reference" "TP6"
-			(at 28.702 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 28.702 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f844a6e-3c33-4436-bcc4-db1ce785e7d9")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP6")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5864,7 +5771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92f04119-d0a9-4856-8720-acb363842dc8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -5914,7 +5821,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5929,7 +5836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "942900a9-368e-4b5a-934a-3bfafc434120")
-		(property "Reference" "TP4"
+		(property "Reference" "TP6"
 			(at 116.332 117.602 0)
 			(effects
 				(font
@@ -5938,8 +5845,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 116.332 120.142 0)
+		(property "Value" "ISNK_FINE_TP"
+			(at 118.364 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 119.38 125.73 0)
 			(effects
 				(font
@@ -5980,7 +5887,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP4")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6015,7 +5922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.168 95.25 90)
 			(effects
 				(font
@@ -6067,7 +5974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9811901e-6d69-45b5-801e-418d78d63591")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 267.97 74.9299 0)
 			(effects
 				(font
@@ -6151,7 +6058,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f8bfb04-c234-435e-a841-3fb2e19170ff")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 215.9 55.8799 0)
 			(effects
 				(font
@@ -6238,7 +6145,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 2)
 				)
 			)
@@ -6269,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 146.3548 63.5 0)
 			(effects
 				(font
@@ -6320,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1d647bb-229f-463b-a2e0-203f6f1e5757")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR020"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -6370,7 +6277,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR01")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8c51aa4-abc0-4328-8f4e-ad0358855d7f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 48.26 118.11 0)
 			(effects
 				(font
@@ -6435,7 +6342,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6450,7 +6357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab555a86-3c4c-44ee-a2a2-7bf7e63f65e6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR018"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -6500,7 +6407,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR02")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.1948 63.5 0)
 			(effects
 				(font
@@ -6584,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ed1911-3db5-479c-a109-37fb060f0a7f")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 198.12 67.3099 0)
 			(effects
 				(font
@@ -6602,7 +6509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 202.438 68.58 90)
 			(effects
 				(font
@@ -6638,7 +6545,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b614c147-3215-4bd9-ac71-93385c0f4a9b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -6703,7 +6610,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6738,7 +6645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.168 105.41 90)
 			(effects
 				(font
@@ -6789,7 +6696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6672b66-5e58-4da2-907e-bb5bb0339b02")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 32.766 72.644 0)
 			(effects
 				(font
@@ -6805,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.338 73.66 90)
 			(effects
 				(font
@@ -6841,7 +6748,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6857,7 +6764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde93f37-6ccf-40c0-824e-a4d9e6e91d5d")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 50.8 119.3799 0)
 			(effects
 				(font
@@ -6875,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 46.482 120.65 90)
 			(effects
 				(font
@@ -6911,7 +6818,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be9952f0-9c20-4201-8ca4-5612d39cc5f6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 102.87 143.51 0)
 			(effects
 				(font
@@ -6977,7 +6884,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6993,7 +6900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c8b58b-b1c2-4ff5-a340-f00882e91421")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 27.94 143.51 0)
 			(effects
 				(font
@@ -7043,7 +6950,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7059,7 +6966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc032a9c-e2e6-4ba1-a535-44ccc619a8e6")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 105.41 129.5399 0)
 			(effects
 				(font
@@ -7077,7 +6984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.092 130.81 90)
 			(effects
 				(font
@@ -7113,7 +7020,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25e85e7-9eae-46ba-a04f-d26c6df22147")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 267.97 65.786 0)
 			(effects
 				(font
@@ -7144,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 265.938 64.77 90)
 			(effects
 				(font
@@ -7180,7 +7087,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7188,15 +7095,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 41.91 125.73 0)
+		(at 43.18 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "de4c5fae-f082-4b69-a871-0f5beaaaf0ae")
-		(property "Reference" "TP1"
-			(at 43.942 117.602 0)
+		(property "Reference" "TP3"
+			(at 45.212 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,8 +7111,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 43.942 120.142 0)
+		(property "Value" "VBUS_MIN_TP"
+			(at 47.244 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,8 +7120,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 46.99 125.73 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 48.26 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 125.73 0)
+			(at 48.26 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +7139,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 41.91 125.73 0)
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7153,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a466ea-df04-4799-9063-85a145f9385f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 35.56 72.39 0)
 			(effects
 				(font
@@ -7311,7 +7218,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7328,7 +7235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d4a247-56b1-46f7-9fbc-a9c43e1a87e3")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 215.9 71.1201 0)
 			(effects
 				(font
@@ -7400,7 +7307,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7416,7 +7323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9e7f047-4e0b-4bb2-927c-9f17374ef5a5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 72.39 118.11 0)
 			(effects
 				(font
@@ -7466,7 +7373,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7481,7 +7388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee5457a-81e3-4581-9197-ef5b184259c5")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR022"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -7531,7 +7438,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "#PWR015")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
