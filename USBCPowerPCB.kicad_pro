@@ -218,9 +218,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1441450|368300|4df2f2fc-cab6-4260-adf3-c43e53812c7f|00000000-0000-0000-0000-000000000000|/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450|/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/0ba7757f-854f-4573-bb78-e140dbbd3450|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -672,12 +670,8 @@
       "12V Buck Converter"
     ],
     [
-      "2bd234b3-44b9-429b-8fa2-bd467a911428",
+      "4f21da9f-d1d7-4b66-a00f-51f47ae1c74b",
       "5V Buck Converter"
-    ],
-    [
-      "0ba7757f-854f-4573-bb78-e140dbbd3450",
-      "Current Monitoring"
     ]
   ],
   "text_variables": {}

@@ -2959,39 +2959,6 @@
 		)
 		(uuid "fb52be4a-8cf6-4181-8549-a7a7ca17d6d9")
 	)
-	(label "VOUT"
-		(at 208.28 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18539080-c84d-486d-aea7-e9cd8709ab5d")
-	)
-	(label "POWER_GOOD"
-		(at 191.77 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f103a78-9739-443a-b27e-1bd51bb235b5")
-	)
-	(label "VIN"
-		(at 135.89 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "886339db-8553-41a3-852e-867359a630f4")
-	)
 	(label "POWER_GOOD"
 		(at 113.03 96.52 0)
 		(fields_autoplaced yes)
@@ -3001,40 +2968,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9180ea0a-c2b3-41bd-8a7d-1e6e6d181366")
-	)
-	(label "FB"
-		(at 123.19 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e8aded4-23ab-4105-91cc-ff25c0063872")
-	)
-	(label "VOUT"
-		(at 158.75 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8513706-3d97-4fd6-9a3c-45b83a6030c2")
-	)
-	(label "POWER_GOOD"
-		(at 248.92 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad7cadd1-98d4-431e-9c05-cbd066c48456")
+		(uuid "2c83ee2b-5469-4775-b106-1a019a7c6148")
 	)
 	(label "VIN"
 		(at 73.66 85.09 0)
@@ -3045,7 +2979,73 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b543064a-de67-431c-b43c-972f6a34c71c")
+		(uuid "2ea58d78-7177-4737-89e4-6c8aeabca7e7")
+	)
+	(label "VIN"
+		(at 135.89 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91da1dec-8baf-458f-984e-4ac7e5d5de13")
+	)
+	(label "POWER_GOOD"
+		(at 191.77 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0c5c34e-eb5b-4367-ac09-55382471b68a")
+	)
+	(label "POWER_GOOD"
+		(at 248.92 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd08ac84-049b-466c-9b9a-512d24516d11")
+	)
+	(label "VOUT"
+		(at 158.75 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead14d1c-2c57-408d-bbb7-82ba0a8a347a")
+	)
+	(label "VOUT"
+		(at 208.28 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5117f5a-d040-4912-8a57-49471cdbff57")
+	)
+	(label "FB"
+		(at 123.19 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa62cc7f-bcc7-4a3c-9ea7-90405bebbf57")
 	)
 	(label "FB"
 		(at 107.95 88.9 0)
@@ -3056,7 +3056,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d9f970d7-506c-4e84-9257-2ef8ecad1835")
+		(uuid "ff20d16b-453b-47f0-a34e-ef16e01678ea")
 	)
 	(hierarchical_label "VBUS_IN"
 		(shape input)
@@ -3068,7 +3068,7 @@
 			)
 			(justify right)
 		)
-		(uuid "02b659c2-582d-4238-ba26-c4897bb4c2bc")
+		(uuid "56b49af2-8e87-4c27-8da5-ba15bdab6705")
 	)
 	(hierarchical_label "12V_OUT"
 		(shape output)
@@ -3080,157 +3080,19 @@
 			)
 			(justify left)
 		)
-		(uuid "c0f395f8-e20c-4414-9a3d-069f8024beec")
+		(uuid "6faf650f-9b42-48a7-95dd-38772e402c27")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 95.25 0)
+		(at 147.32 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "032102b3-70ae-4162-beab-78e7323d7030")
-		(property "Reference" "C8"
-			(at 49.784 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 47.498 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 54.3052 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa40e475-f558-467a-ad9f-02b7a7774cca")
-		)
-		(pin "2"
-			(uuid "267c628e-9ace-4c79-adbd-cea94272a020")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 44.45 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0af3486d-9c8b-4db0-b05c-0be71f115310")
-		(property "Reference" "C7"
-			(at 40.64 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 38.608 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 45.4152 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 44.45 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c8ccf70-d6e1-4a71-af3a-82358342ea90")
-		)
-		(pin "2"
-			(uuid "b0713b8e-45a4-4aa7-9ee7-b881e6762b68")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 158.75 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0de52548-9827-4e51-8b04-2c9f5c0c98e7")
-		(property "Reference" "C14"
-			(at 161.798 105.664 0)
+		(uuid "03a3c16b-1416-4830-a1f2-83959ac718ab")
+		(property "Reference" "C13"
+			(at 150.368 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3101,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 161.798 108.204 0)
+			(at 150.368 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3110,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 159.7152 110.49 0)
+			(at 148.2852 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 106.68 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3128,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 106.68 0)
+			(at 147.32 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,852 +3137,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1763e2cc-c727-4189-bd8e-5822bbf4e544")
+			(uuid "dc715132-6bfe-4824-97ac-e5746abeae8c")
 		)
 		(pin "2"
-			(uuid "3684fb77-b032-42fa-b608-f1d149864448")
+			(uuid "593c70a6-abef-4c20-a540-912178bf2311")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e31ed5-9576-4178-ae54-6794b45efc8e")
-		(property "Reference" "R24"
-			(at 190.5 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 190.5 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 194.818 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32c4829e-624b-45cd-8231-5e2508c58d23")
-		)
-		(pin "2"
-			(uuid "3fb3c7d6-7450-4ce1-85b8-e6659ec4b626")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26583e28-e7c3-4b62-a07f-646b779fedad")
-		(property "Reference" "#PWR025"
-			(at 114.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.856 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d920cd4-9690-438b-8c94-2087791c1d16")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 109.22 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28942083-b2b7-43f3-9b9e-0bb3a43c817c")
-		(property "Reference" "C10"
-			(at 102.362 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 101.854 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 110.1852 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7938eaed-ef09-4032-a41f-58f513eaa757")
-		)
-		(pin "2"
-			(uuid "f9628700-998c-4f7f-949f-ecd593d2f058")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b555fd6-f49f-48d3-8dc0-0528278c0f13")
-		(property "Reference" "R19"
-			(at 139.7 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9"
-			(at 139.7 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 138.938 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71131245-3987-42ed-979f-fe4910261608")
-		)
-		(pin "2"
-			(uuid "f9d3db1f-f79a-4125-9e05-5b9c6ab68227")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 62.23 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39e56972-586f-4b8c-9e91-2206bd84ca32")
-		(property "Reference" "C9"
-			(at 58.674 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 55.88 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 63.1952 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f8c41be-a2a4-4758-845e-72ed0e6866f8")
-		)
-		(pin "2"
-			(uuid "0fc82f7b-66c8-4268-a7be-1cc700a53e47")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49f85468-14b2-4103-b866-b9cd17fb287f")
-		(property "Reference" "#PWR028"
-			(at 158.75 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1070675-be0e-4c35-9643-93504de6662b")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4df1b7a2-e0b9-4226-ba3d-3ca378698d1d")
-		(property "Reference" "R17"
-			(at 137.16 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "56k"
-			(at 137.16 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca0f05a-09fc-4fa7-b34e-3aa847fef3c8")
-		)
-		(pin "2"
-			(uuid "b01204de-eb83-4a24-a481-d1fa367780f5")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53057f41-ead2-40d4-8700-b615b963d018")
-		(property "Reference" "R16"
-			(at 73.406 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "52.3k"
-			(at 71.882 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 69.342 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3c98417-d191-4880-b0f5-2ec025e2800b")
-		)
-		(pin "2"
-			(uuid "3f740c9b-befa-40ef-9a0d-ae30cfab3691")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5587add2-f1ed-4cdc-8250-ea4d7b072536")
-		(property "Reference" "R18"
-			(at 137.16 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 137.16 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "928a3e8f-044e-4170-8c16-c2bd186ba53a")
-		)
-		(pin "2"
-			(uuid "b49c6edf-78b0-4c12-9c10-d40a84c40336")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 203.2 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "624f7190-9e07-4a33-8514-249db7627252")
-		(property "Reference" "Q4"
-			(at 209.55 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BUK9K52-60RAX"
-			(at 209.55 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG4822SSD.pdf"
-			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "db9dc6ff-d7f8-4b48-9bf3-b2a063aef3ae")
-		)
-		(pin "3"
-			(uuid "ce924443-92ec-4483-973a-134267cf76db")
-		)
-		(pin "7"
-			(uuid "e1edbcef-ba8c-400a-9c75-5c449c7fa7a2")
-		)
-		(pin "4"
-			(uuid "b6494e8b-8618-4359-8b18-32d8b79143f5")
-		)
-		(pin "1"
-			(uuid "4d7483c5-aa00-41fb-9500-a17765ab2f6b")
-		)
-		(pin "5"
-			(uuid "6ca63ea2-aa30-4c67-a74a-935ef7f8acfa")
-		)
-		(pin "8"
-			(uuid "9a049f5b-b317-4a17-8136-4022d54774d9")
-		)
-		(pin "2"
-			(uuid "ba9d0cb9-8f3e-4ee1-bf14-626b9cbb3c12")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6374bc06-6367-4f6b-9d81-f34a91b945f7")
-		(property "Reference" "#PWR024"
-			(at 109.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecab4fbc-d57c-4af6-9bc8-7b21024fa741")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 116.84 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "663ce0ab-7698-4d67-93c7-9dac28a0bfb9")
-		(property "Reference" "C11"
-			(at 116.84 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 116.84 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 120.65 100.6348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 116.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6875f85a-0ef8-4289-9826-e96bfacbddf1")
-		)
-		(pin "2"
-			(uuid "71dbf814-1200-4e0a-841f-20177ff46ae4")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4134,7 +3159,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69e1c4cb-61ac-4a1a-a4b8-007dd209761f")
+		(uuid "0b351265-a9fb-4cd7-ae95-e8a43e04153f")
 		(property "Reference" "L1"
 			(at 129.54 103.378 90)
 			(effects
@@ -4188,10 +3213,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67aec63a-e5a8-42eb-bae0-95cfd9e78b5b")
+			(uuid "c908f52a-5e42-45cc-a959-d0b02e9dda33")
 		)
 		(pin "2"
-			(uuid "79dd5248-8c9d-4d64-8e63-9725c8814d1e")
+			(uuid "f510ae46-cdd7-40fa-aac5-139d7549beef")
 		)
 		(instances
 			(project "USBCPowerPCB"
@@ -4203,100 +3228,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "947991ff-dcb7-439e-97f3-f01108eb7351")
-		(property "Reference" "#PWR027"
-			(at 137.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7294c76d-bd28-48e8-a11a-b4428df5410b")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 193.04 102.87 0)
-		(mirror x)
+		(at 137.16 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a921aefb-74e0-41d4-b8a3-572a756584ab")
-		(property "Reference" "R25"
-			(at 190.5 101.5999 0)
+		(fields_autoplaced yes)
+		(uuid "1330eb5d-1a2e-4ca0-b400-b95ec069c4e8")
+		(property "Reference" "R20"
+			(at 139.7 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 190.5 104.1399 0)
+		(property "Value" "383k"
+			(at 139.7 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 191.262 102.87 90)
+			(at 135.382 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +3265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 102.87 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +3274,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 102.87 0)
+			(at 137.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,32 +3282,32 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "332c38cc-e291-4bc7-ac6f-d7866f17ef3a")
-		)
 		(pin "1"
-			(uuid "fc6912d8-e836-4d78-a09a-155b9bfc6a29")
+			(uuid "1053d8fa-f019-4923-a6a9-c6d888dae0f3")
+		)
+		(pin "2"
+			(uuid "f6419dda-b6a0-4a35-8e27-bdb5fc2454cf")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R25")
+					(reference "R20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 93.98 0)
+		(lib_id "power:+3.3V")
+		(at 250.19 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa9503a1-49f8-4b90-9632-7c51f98642ca")
-		(property "Reference" "#PWR026"
-			(at 134.62 100.33 0)
+		(uuid "18f60e1f-98f8-4694-933a-67376b729ce1")
+		(property "Reference" "#PWR030"
+			(at 250.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,8 +3315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 134.62 97.282 0)
+		(property "Value" "+3.3V"
+			(at 250.19 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +3324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 93.98 0)
+			(at 250.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +3333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 93.98 0)
+			(at 250.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,8 +3341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,12 +3351,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef584ef1-5bce-4afd-97e2-518890b5fa1e")
+			(uuid "acb5ce96-53ee-4a18-b452-b4377b523fd2")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4410,7 +3370,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ad2db36f-9c21-4940-b3e5-54a15ae5825f")
+		(uuid "1973c614-9b4f-403f-88ec-ab9cf998b9dd")
 		(property "Reference" "R26"
 			(at 254 100.076 0)
 			(effects
@@ -4455,15 +3415,154 @@
 			)
 		)
 		(pin "2"
-			(uuid "835427ff-98a7-41f2-9f32-667ea3c44538")
+			(uuid "2e4e9151-3b85-4452-ba90-f51bd7558b50")
 		)
 		(pin "1"
-			(uuid "c6c36299-28f9-48fb-b3ad-22f520a0653c")
+			(uuid "3cead47f-9377-4d1a-9d59-f41d62cc4b55")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f04615-679c-46cf-bd3c-c7d740821fc4")
+		(property "Reference" "C12"
+			(at 128.27 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30pF"
+			(at 128.27 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 125.4252 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1149e7d-20b5-4311-a82b-381a535e0958")
+		)
+		(pin "2"
+			(uuid "143778ae-5971-435d-8dac-dc307690c9b9")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29f4cff7-c6ba-4bcf-82ff-e2c726b2e062")
+		(property "Reference" "C10"
+			(at 102.362 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 101.854 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 110.1852 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8980817e-4c13-4f8e-b8d7-f13f11f61c18")
+		)
+		(pin "2"
+			(uuid "68b57862-e4f6-4745-aa43-6a25d213e177")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4477,7 +3576,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b869a83c-e2bf-4284-abf0-065d9313b988")
+		(uuid "30e1cef7-5047-452a-8742-16ca9e1f1a50")
 		(property "Reference" "#PWR023"
 			(at 44.45 111.76 0)
 			(effects
@@ -4523,12 +3622,597 @@
 			)
 		)
 		(pin "1"
-			(uuid "d993850b-3d78-48fd-8175-72c82e0da1b2")
+			(uuid "988328f0-dd4b-4343-82d7-1f403c000298")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317b958c-af95-4f61-8ef7-a859193e87db")
+		(property "Reference" "R17"
+			(at 137.16 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 137.16 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82368b88-4f67-4472-b8be-f8a79193286f")
+		)
+		(pin "2"
+			(uuid "1225ba17-6171-43f4-a1f2-6b8827b8cff7")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3990a86b-4daf-4a95-89a9-096e8fcc0ebd")
+		(property "Reference" "R16"
+			(at 73.406 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3k"
+			(at 71.882 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 69.342 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89309fd3-64cd-4dfe-ae42-27d432eaf6f9")
+		)
+		(pin "2"
+			(uuid "b5f6b441-993c-4293-83b0-521090c080d8")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d0f1578-693e-41e0-b171-59457ba1f9d8")
+		(property "Reference" "C11"
+			(at 116.84 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 116.84 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 120.65 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff242ba-2ab6-469e-8112-7feba7af2b1a")
+		)
+		(pin "2"
+			(uuid "800ab6e7-1837-4018-8b4a-3c8fec7eb1ca")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 203.2 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "561308ba-d0b7-492d-90e0-60e96e04e582")
+		(property "Reference" "Q4"
+			(at 209.55 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BUK9K52-60RAX"
+			(at 209.55 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG4822SSD.pdf"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "db9dc6ff-d7f8-4b48-9bf3-b2a063aef3ae")
+		)
+		(pin "3"
+			(uuid "ce924443-92ec-4483-973a-134267cf76db")
+		)
+		(pin "7"
+			(uuid "f97098a7-74ac-4fa5-bd52-2ad3adaef9e6")
+		)
+		(pin "4"
+			(uuid "b6494e8b-8618-4359-8b18-32d8b79143f5")
+		)
+		(pin "1"
+			(uuid "eb2c89bd-68e4-462e-88da-645e40991a4c")
+		)
+		(pin "5"
+			(uuid "6ca63ea2-aa30-4c67-a74a-935ef7f8acfa")
+		)
+		(pin "8"
+			(uuid "c05e9c3e-38ec-4d8a-ab5c-056e61518c3e")
+		)
+		(pin "2"
+			(uuid "c77c71aa-a747-4e5a-b9b3-5d84dcce452e")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
+		(at 203.2 104.14 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "570c8f86-b2ed-4e9b-9688-cd83df773901")
+		(property "Reference" "Q4"
+			(at 209.55 105.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BUK9K52-60RAX"
+			(at 209.55 102.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG4822SSD.pdf"
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1dee1a47-26aa-45d7-a6ac-cb959dfcedf2")
+		)
+		(pin "3"
+			(uuid "99a8c6ac-2ef5-443b-abe2-bbd77005205b")
+		)
+		(pin "7"
+			(uuid "7777e3ba-946f-4ce6-bd3b-4f911dd4603d")
+		)
+		(pin "4"
+			(uuid "df471f07-d9be-4573-83f3-bd2609c5e1cd")
+		)
+		(pin "1"
+			(uuid "2d6e44e9-64bc-48eb-91f0-889adece4c24")
+		)
+		(pin "5"
+			(uuid "8f66686a-259c-4bd5-8f38-b3ecba7c943c")
+		)
+		(pin "8"
+			(uuid "2e083436-272f-4601-9d9d-5084d29abcc5")
+		)
+		(pin "2"
+			(uuid "b42c7f6a-397d-4b23-82fe-bf5c0102d8db")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cbd2f7b-ef9a-4323-adfa-5895e3c3e97d")
+		(property "Reference" "R23"
+			(at 146.05 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "240k"
+			(at 146.05 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cccf937f-9ac6-45c3-8fae-d738bd363982")
+		)
+		(pin "2"
+			(uuid "46f0f3b6-3dc8-4733-8a83-d7eac0b4d695")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e29f9d-3c3f-4b37-8880-bbc23b67581b")
+		(property "Reference" "#PWR028"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a99b86-ba90-46a0-bf8a-38037734f5fa")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6626e692-8919-4931-b317-1d7d835c7a0b")
+		(property "Reference" "C14"
+			(at 161.798 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 161.798 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 159.7152 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f99f0213-54ed-4884-a6d0-967232d25281")
+		)
+		(pin "2"
+			(uuid "0e8fd4e1-6a22-4ce7-94a8-5e00d26853c6")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4543,7 +4227,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bcf5a74e-8c3a-4056-a476-2b0509890d4f")
+		(uuid "729344ee-c67b-4c88-a2bb-f9b510400150")
 		(property "Reference" "R22"
 			(at 146.05 74.9299 0)
 			(effects
@@ -4590,15 +4274,769 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e1c9546-f90f-4876-8fbe-338e6e47a533")
+			(uuid "7c3ab021-d5b7-458a-9180-6994407e5415")
 		)
 		(pin "2"
-			(uuid "f9c351a4-1bf0-4052-97c9-1d9998c37fd2")
+			(uuid "a04ac49d-4de7-4f7e-87fa-3e205e8e42cc")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7432fcb0-688d-4d46-913a-123a7f66593b")
+		(property "Reference" "R18"
+			(at 137.16 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 137.16 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fa95c77-45ce-48e6-b9ac-75371afa1e77")
+		)
+		(pin "2"
+			(uuid "a282049d-0d12-4f6f-8d79-2caae9d8df4f")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 250.19 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76c82092-d597-41d4-b64d-9d87d32b8569")
+		(property "Reference" "D2"
+			(at 254 89.2174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 254 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "717e135d-3622-40d7-884a-4246fea74dff")
+		)
+		(pin "1"
+			(uuid "bf6490c8-2aaf-4668-9242-ed2eb79728fa")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bcec070-6747-4dad-9c9e-ebc7a2b01807")
+		(property "Reference" "R19"
+			(at 139.7 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9"
+			(at 139.7 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.938 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001d8fa1-3756-4c12-a2f2-63b1fbda826c")
+		)
+		(pin "2"
+			(uuid "75e5439d-02f3-4648-b6d1-dccdc6a802e1")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88a64499-a85d-49f8-8e1d-ba92f1326839")
+		(property "Reference" "#PWR027"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c6132bf-ca4a-406e-8e0a-da117cb55d29")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 102.87 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90a91263-53c1-4eb0-a192-26b204ba59e3")
+		(property "Reference" "R25"
+			(at 190.5 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 190.5 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 191.262 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09465c1e-5a76-42d3-9ea1-dadb72f69979")
+		)
+		(pin "1"
+			(uuid "33fa8458-08c6-4a48-a083-4eebcb070546")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9349ba38-e3a4-48a1-bd05-49445a8f4859")
+		(property "Reference" "R24"
+			(at 190.5 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.818 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77e8d172-1f06-4467-afa9-ca0c69aab42b")
+		)
+		(pin "2"
+			(uuid "c7e44a26-eb20-48f4-94a1-650121b09bb7")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b886181-f27f-48e4-83b2-ebc874d652e3")
+		(property "Reference" "C8"
+			(at 49.784 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 47.498 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 54.3052 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b760b2b0-aa6c-4ced-bf45-3a19ef56a469")
+		)
+		(pin "2"
+			(uuid "114341dd-16a6-46d0-969b-ea930ce2399b")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 193.04 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a15eeb30-20bf-4142-b976-6e48059d87ea")
+		(property "Reference" "#PWR029"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.04 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 193.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f2f378-ff44-4512-80bb-2bd4e7acc8c9")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6155268-8bfc-4730-b9b3-ef11f3fb3f88")
+		(property "Reference" "#PWR024"
+			(at 109.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d41246e-e245-4e0a-993e-b3bc015de1e6")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad61e60c-b10c-4802-ab3c-39c50ea325fc")
+		(property "Reference" "R21"
+			(at 139.7 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 139.7 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 135.382 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c39287-af8b-49c8-82f6-4c1a3c04365b")
+		)
+		(pin "2"
+			(uuid "99cecab0-1ce8-4b66-b215-7d5f900c76f3")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca155d64-3a53-482d-9607-5e4ed3de17b8")
+		(property "Reference" "C7"
+			(at 40.64 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 38.608 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 45.4152 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d243f795-07c9-4a34-8205-7b6b9274a1b9")
+		)
+		(pin "2"
+			(uuid "b459336a-5bed-4c08-8966-f1b07f2069ab")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4613,7 +5051,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c267477f-9713-4e7a-ae5f-52fee7878a90")
+		(uuid "d7e39554-1a97-46f7-9a5a-3b62339c1785")
 		(property "Reference" "IC1"
 			(at 91.44 78.74 0)
 			(effects
@@ -4710,43 +5148,43 @@
 			)
 		)
 		(pin "6"
-			(uuid "3efd2706-118e-49b4-ad0b-8d4f5279bce2")
+			(uuid "7be54f47-9fbf-4502-9e67-eecedd1b7246")
 		)
 		(pin "1"
-			(uuid "5a54ea8c-7cdf-44d5-86be-461bbdd116f5")
+			(uuid "4ee073f5-2730-425e-b5e2-2e60e9a4b7f0")
 		)
 		(pin "2"
-			(uuid "e686ed73-eeb9-4c44-a5d1-37e082569f81")
+			(uuid "0fdb3a05-222c-467a-97da-7f2789e20796")
 		)
 		(pin "12"
-			(uuid "fcb70d53-53d3-437c-8dbb-9b967bb7b981")
+			(uuid "9a337c7a-b9a7-4fca-a71a-0aefa4b9ecdf")
 		)
 		(pin "10"
-			(uuid "9be573a5-cf5b-4894-9295-87b3635d70bb")
+			(uuid "e9102f31-5323-45d2-a920-a6d5300f5d16")
 		)
 		(pin "11"
-			(uuid "cbbc2b7d-9bf9-48c8-ae8a-620bfb5e818b")
+			(uuid "1fe129f5-6cab-4af3-8227-e9b9e7ab0d04")
 		)
 		(pin "5"
-			(uuid "703dabf8-e5af-4ba8-b44a-90c1d87e1a16")
+			(uuid "9131fc85-0c47-48dd-bd58-34dfad91c23b")
 		)
 		(pin "9"
-			(uuid "4a0b2c88-9771-4c01-a61a-0fa128ba0368")
+			(uuid "7b4ba3a7-908c-4460-b986-c6f3f977ed83")
 		)
 		(pin "13"
-			(uuid "d36755af-b3a3-4e14-8ded-f666a0672c9d")
+			(uuid "75b19b10-0421-49af-bf40-0232585e656d")
 		)
 		(pin "4"
-			(uuid "34bf1533-c520-4c71-8074-353829d021ab")
+			(uuid "694fea42-8389-4ab8-b042-61b2cd34e400")
 		)
 		(pin "3"
-			(uuid "88f66275-ea24-483c-910a-9f9d10c8e83f")
+			(uuid "a12aa5af-39cf-4a9a-8b07-2e3b3a739d8e")
 		)
 		(pin "8"
-			(uuid "d6ba9e4f-dc2b-40f7-b258-49928c2cb0a5")
+			(uuid "d756caaf-b23f-4ce9-9fbc-b7fec511ed80")
 		)
 		(pin "7"
-			(uuid "f30e6218-7d83-49ff-bb24-0d97c5c1bcde")
+			(uuid "65ac4027-70b2-4eb2-b670-1521ad6d77f2")
 		)
 		(instances
 			(project "USBCPowerPCB"
@@ -4758,35 +5196,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 143.51 83.82 0)
+		(lib_id "power:GND")
+		(at 134.62 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbc9f897-254e-406c-89a4-7db5dd3be217")
-		(property "Reference" "R23"
-			(at 146.05 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "240k"
-			(at 146.05 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 83.82 0)
+		(uuid "da4ad449-c6c5-4565-86e0-afe81dd83a86")
+		(property "Reference" "#PWR026"
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,59 +5213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1c22e06-b5e0-41c9-ae64-d1e270b75824")
-		)
-		(pin "2"
-			(uuid "79309622-e070-49c2-9dd8-d4d933e50b5f")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 250.19 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce91c844-5645-4710-9eec-bba9f6cbb47f")
-		(property "Reference" "#PWR030"
-			(at 250.19 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 250.19 78.994 0)
+		(property "Value" "GND"
+			(at 134.62 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +5222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 82.55 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +5231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 82.55 0)
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,75 +5239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 250.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12d3abfd-fa11-41a4-936b-cd6eed233a30")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1d8b471-af26-493a-8f12-d1d334c8e2dd")
-		(property "Reference" "R21"
-			(at 139.7 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20"
-			(at 139.7 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.382 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 127 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,15 +5249,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9d83918-64bd-40c8-9aa3-5f69971f7723")
-		)
-		(pin "2"
-			(uuid "081a2418-961e-4a58-b9b0-7ecfba023fd3")
+			(uuid "1cb6d444-47ff-4568-8f6b-2dddfe686bf0")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R21")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4964,15 +5262,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 106.68 0)
+		(at 62.23 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8cc22e5-c6b8-44cc-8449-8bdae7d28bd3")
-		(property "Reference" "C13"
-			(at 150.368 105.664 0)
+		(uuid "e3556f70-ea8a-45e3-9c86-362e5dca77cf")
+		(property "Reference" "C9"
+			(at 58.674 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,8 +5278,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 150.368 108.204 0)
+		(property "Value" "0.1uF"
+			(at 55.88 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 148.2852 110.49 0)
+			(at 63.1952 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 106.68 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5306,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 106.68 0)
+			(at 62.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,50 +5315,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3437775-916e-4fba-b821-aa118a29ace6")
+			(uuid "1701bab6-40e9-40fe-a6a1-1f3c53f69886")
 		)
 		(pin "2"
-			(uuid "e4c26821-9593-4645-b272-168527e5a54c")
+			(uuid "b217c634-206a-484c-bb59-0e63711604e9")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 116.84 0)
+		(lib_id "power:GND")
+		(at 114.3 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de9b49e8-0250-4558-bf6b-f90c5905bf69")
-		(property "Reference" "C12"
-			(at 128.27 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30pF"
-			(at 128.27 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 125.4252 120.65 0)
+		(uuid "ff78ca06-7879-4422-956a-772eb4df6d9b")
+		(property "Reference" "#PWR025"
+			(at 114.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,129 +5347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dbc75f5-8fc0-46f1-ad9d-218bdabfce9a")
-		)
-		(pin "2"
-			(uuid "d9fd9bb3-f89b-422a-9424-1d90aaa4fd06")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7cd126d-ebcf-43e1-bfc1-b522f19681d8")
-		(property "Reference" "R20"
-			(at 139.7 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "383"
-			(at 139.7 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.382 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "640e75f2-9e5d-4549-ac8f-a1fad50c7a41")
-		)
-		(pin "2"
-			(uuid "60b441f9-3fc8-4a31-b7aa-227a112c8a52")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 193.04 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9f702db-e5ed-45c7-9d15-388cd35df479")
-		(property "Reference" "#PWR029"
-			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 193.04 84.074 0)
+		(property "Value" "GND"
+			(at 117.856 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 87.63 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 87.63 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,8 +5373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 193.04 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,171 +5383,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "1362b5aa-c64b-484d-859c-27ca950bb14e")
+			(uuid "5b630b5e-bfd0-4c82-b122-16767b87ba09")
 		)
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 250.19 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2530818-c315-4a9c-b158-0e3fea84b688")
-		(property "Reference" "D2"
-			(at 254 89.2174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 254 91.7574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 250.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b75158d-e6ff-40b8-921b-2e403dcaf9a1")
-		)
-		(pin "1"
-			(uuid "ffc9ad4b-d428-4680-9de4-73e698201eaf")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 203.2 104.14 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f635626e-7ec3-478a-b00d-e1ed9636380e")
-		(property "Reference" "Q4"
-			(at 209.55 105.4101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BUK9K52-60RAX"
-			(at 209.55 102.8701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG4822SSD.pdf"
-			(at 208.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 203.2 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "171cac89-37f5-43ce-9c86-f1f7d05dc13d")
-		)
-		(pin "3"
-			(uuid "4a8b4240-7da2-490a-861f-0dac43479173")
-		)
-		(pin "7"
-			(uuid "7777e3ba-946f-4ce6-bd3b-4f911dd4603d")
-		)
-		(pin "4"
-			(uuid "8f252192-b161-4f15-8235-99ce69a9b18c")
-		)
-		(pin "1"
-			(uuid "2d6e44e9-64bc-48eb-91f0-889adece4c24")
-		)
-		(pin "5"
-			(uuid "3d4d7647-7d57-423b-af63-2b5ae4c709fd")
-		)
-		(pin "8"
-			(uuid "2e083436-272f-4601-9d9d-5084d29abcc5")
-		)
-		(pin "2"
-			(uuid "b42c7f6a-397d-4b23-82fe-bf5c0102d8db")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "Q4")
-					(unit 2)
 				)
 			)
 		)

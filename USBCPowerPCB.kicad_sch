@@ -1175,18 +1175,6 @@
 		)
 	)
 	(junction
-		(at 142.24 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "032714eb-6ff1-4001-af6a-a360cdf07c7a")
-	)
-	(junction
-		(at 182.88 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2185ca85-c95f-429d-a3a4-a0d7bb9b871f")
-	)
-	(junction
 		(at 85.09 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1197,6 +1185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abe2a70-4078-43c9-9567-4519425cb441")
+	)
+	(junction
+		(at 180.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d5ddd7-6a42-4f27-8c53-63f4dbb621c3")
 	)
 	(no_connect
 		(at 81.28 113.03)
@@ -1248,6 +1242,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 100.33) (xy 146.05 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b10640-d24b-4abb-aabc-1ac2bc9b0959")
+	)
+	(wire
+		(pts
 			(xy 91.44 100.33) (xy 85.09 100.33)
 		)
 		(stroke
@@ -1268,16 +1272,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 226.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8cea12-d197-4ab1-a6f1-937902c4ac26")
-	)
-	(wire
-		(pts
 			(xy 81.28 107.95) (xy 82.55 107.95)
 		)
 		(stroke
@@ -1288,53 +1282,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 148.59 83.82)
+			(xy 180.34 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "280c1192-4f18-42b4-8190-e3cb17b08453")
-	)
-	(wire
-		(pts
-			(xy 182.88 101.6) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae95867-4a47-4391-8c17-20df1e6c6e6a")
-	)
-	(wire
-		(pts
-			(xy 187.96 80.01) (xy 187.96 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305074ad-8358-4275-ad47-b084be46c3cd")
-	)
-	(wire
-		(pts
-			(xy 189.23 76.2) (xy 182.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c9b239-9e4b-4f5a-9155-906b2d0de89d")
-	)
-	(wire
-		(pts
-			(xy 182.88 116.84) (xy 182.88 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47799fd2-9f96-4652-9857-7e289fdbca2c")
+		(uuid "4960efbe-f68f-46a5-8ab8-a5997f30ffaf")
 	)
 	(wire
 		(pts
@@ -1348,27 +1302,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 182.88 99.06)
+			(xy 185.42 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d25feac-9934-46c6-b05e-bfab370f223f")
+		(uuid "4e877403-354c-45d4-b13e-4d10328cca47")
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a1b093-9642-4810-8ece-12f0982ff44b")
-	)
-	(wire
-		(pts
-			(xy 224.79 107.95) (xy 224.79 106.68)
+			(xy 184.15 128.27) (xy 184.15 127)
 		)
 		(stroke
 			(width 0)
@@ -1388,6 +1332,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 100.33) (xy 217.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "795a5acb-a216-4447-a3e6-edfe4fe7f0ef")
+	)
+	(wire
+		(pts
 			(xy 91.44 100.33) (xy 110.49 100.33)
 		)
 		(stroke
@@ -1398,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 106.68) (xy 226.06 106.68)
+			(xy 184.15 127) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -1408,63 +1362,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 139.7 109.22)
+			(xy 180.34 124.46) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87850cdf-252d-409d-b248-36355a71cdf7")
+		(uuid "9e30d4df-cdc2-4bec-a650-ad71240139b3")
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 142.24 100.33)
+			(xy 222.25 128.27) (xy 222.25 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b39283f-e14c-4663-9deb-a6ca125e3f3d")
+		(uuid "a5b5df7c-639d-41e8-ac35-161677e22339")
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 190.5 99.06)
+			(xy 217.17 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d8ce93e-3c8b-4970-94a9-8ffb5446473e")
-	)
-	(wire
-		(pts
-			(xy 182.88 76.2) (xy 182.88 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b68d8e-8e9b-4ba3-8ead-dacbef64d1a4")
-	)
-	(wire
-		(pts
-			(xy 175.26 83.82) (xy 182.88 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4842ba3-f0a5-41bd-8b54-267b86027a62")
-	)
-	(wire
-		(pts
-			(xy 187.96 78.74) (xy 189.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c128ed6d-f4d3-4ced-95a1-2ef9c698f34e")
+		(uuid "c3121bfe-065b-4ac1-9c63-7ab0fe3ff73e")
 	)
 	(wire
 		(pts
@@ -1475,6 +1399,16 @@
 			(type default)
 		)
 		(uuid "d1a5fa3d-eaee-4a38-8e59-209e8a06b79e")
+	)
+	(wire
+		(pts
+			(xy 222.25 127) (xy 223.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d37fc4-1887-4bef-b291-c2cbe0e8a65b")
 	)
 	(wire
 		(pts
@@ -1498,27 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 139.7 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9472cf-db62-41fb-9f8c-6bbf859d9fd4")
-	)
-	(wire
-		(pts
-			(xy 137.16 100.33) (xy 142.24 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e48c752f-7558-412d-8da6-8e6e35cec227")
-	)
-	(wire
-		(pts
-			(xy 175.26 116.84) (xy 182.88 116.84)
+			(xy 172.72 100.33) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1528,13 +1442,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 142.24 100.33)
+			(xy 210.82 100.33) (xy 217.17 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7429b60-b4a5-4047-9763-71ca61538fe3")
+		(uuid "fb556190-d243-4a59-bd3a-05230403c9b4")
 	)
 	(text "USB Type-C Power Supply PCB"
 		(exclude_from_sim no)
@@ -1603,35 +1517,33 @@
 		(uuid "f814267c-6a04-44b9-a744-6edeed38f7cb")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 194.31 76.2 0)
+		(lib_id "power:GND")
+		(at 222.25 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07a8ea52-69ef-43bd-aecc-1dcb096fa9c6")
-		(property "Reference" "J2"
-			(at 196.85 76.1999 0)
+		(uuid "04cc3332-b374-4a39-bbec-c59ba08d5e44")
+		(property "Reference" "#PWR03"
+			(at 222.25 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "5V_OUT"
-			(at 196.85 78.7399 0)
+		(property "Value" "GND"
+			(at 218.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 76.2 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,8 +1551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 76.2 0)
+		(property "Datasheet" ""
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,25 +1560,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 194.31 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "86ccfc13-6b71-4d73-8952-c4c5c0a7dcc6")
 		)
 		(pin "1"
-			(uuid "650c5674-db91-440c-985c-c7c9e7f76d33")
+			(uuid "f2b62cfe-b36a-4b5e-8f24-7863f011330d")
 		)
 		(instances
-			(project ""
+			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "J2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1743,73 +1652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "296db51e-eaf6-40b0-a4d8-689185a57cb4")
-		(property "Reference" "#PWR03"
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94c5dda3-6e37-4c28-bb74-0eff4cec929d")
-		)
-		(instances
-			(project ""
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 231.14 104.14 0)
+		(at 190.5 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1818,7 +1662,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c66636c-0470-4299-88f7-ede7251bed4d")
 		(property "Reference" "J3"
-			(at 233.68 104.1399 0)
+			(at 193.04 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1671,7 @@
 			)
 		)
 		(property "Value" "12V_OUT"
-			(at 233.68 106.6799 0)
+			(at 193.04 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 104.14 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 104.14 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1698,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 104.14 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 107.95 0)
+		(at 184.15 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1953,7 +1797,7 @@
 		(dnp no)
 		(uuid "6ad92e93-0c95-442f-8463-8c7a2e193a80")
 		(property "Reference" "#PWR04"
-			(at 224.79 114.3 0)
+			(at 184.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 110.49 0)
+			(at 180.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 107.95 0)
+			(at 184.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +1823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 107.95 0)
+			(at 184.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 107.95 0)
+			(at 184.15 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,73 +1847,6 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 116.84 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c66a994-2941-4bc7-baab-accbed2c18b9")
-		(property "Reference" "TP2"
-			(at 137.16 118.8719 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SAFE_5V_TP"
-			(at 137.16 121.4119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d9d5115-e55a-4df6-abc9-932226c897c3")
-		)
-		(instances
-			(project ""
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2255,6 +2032,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 228.6 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc37425-1b58-4367-8eaf-af1acb1a3a9f")
+		(property "Reference" "J2"
+			(at 231.14 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_OUT"
+			(at 231.14 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fb68e28-e3ac-4763-9972-2ddea72edf8f")
+		)
+		(pin "1"
+			(uuid "aba2fc30-a65c-4479-a19a-bdeda8ecebf0")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 140.97 0)
 		(unit 1)
@@ -2321,7 +2168,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 104.14)
+		(at 146.05 86.995)
 		(size 26.67 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -2333,7 +2180,7 @@
 		)
 		(uuid "01d27e83-9627-42d8-8cf9-628e44513f14")
 		(property "Sheetname" "12V Buck Converter"
-			(at 148.59 103.4284 0)
+			(at 146.05 86.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2189,7 @@
 			)
 		)
 		(property "Sheetfile" "12v_buck_converter.kicad_sch"
-			(at 148.59 129.6166 0)
+			(at 146.05 112.4716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2198,7 @@
 			)
 		)
 		(pin "VBUS_IN" input
-			(at 148.59 116.84 180)
+			(at 146.05 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2208,7 @@
 			(uuid "86649760-1626-4ace-bebe-e5897b784e0b")
 		)
 		(pin "12V_OUT" output
-			(at 175.26 116.84 0)
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,132 +2221,6 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 190.5 87.63)
-		(size 26.67 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0ba7757f-854f-4573-bb78-e140dbbd3450")
-		(property "Sheetname" "Current Monitoring"
-			(at 190.5 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "current_monitoring.kicad_sch"
-			(at 190.5 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5V_IN" input
-			(at 190.5 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "788d449c-dfa3-43ca-82ea-8d3a9454a9b2")
-		)
-		(pin "12V_LOAD" output
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d6623950-23b8-4a46-b41c-ae5aa8e7b5bb")
-		)
-		(pin "12V_IN" input
-			(at 190.5 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d7433351-2508-4a87-aa6b-a8ab0d687fae")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 148.59 71.12)
-		(size 26.67 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2bd234b3-44b9-429b-8fa2-bd467a911428")
-		(property "Sheetname" "5V Buck Converter"
-			(at 148.59 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5v_buck_converter.kicad_sch"
-			(at 148.59 96.5966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VBUS_IN" input
-			(at 148.59 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8e4c9a4f-ceb0-4956-b4f0-c6b542a2d9e3")
-		)
-		(pin "5V_OUT" output
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5b40221f-e92e-489d-a47e-9172a41a848f")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(page "4")
 				)
 			)
 		)
@@ -2555,7 +2276,7 @@
 			(uuid "5f7679ed-aac5-4442-b99d-72d78f7bbfb2")
 		)
 		(pin "SAFE_5V_OUT" output
-			(at 137.16 109.22 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,6 +2309,64 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 86.995)
+		(size 26.67 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f21da9f-d1d7-4b66-a00f-51f47ae1c74b")
+		(property "Sheetname" "5V Buck Converter"
+			(at 184.15 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_buck_converter.kicad_sch"
+			(at 184.15 112.4716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS_IN" input
+			(at 184.15 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82202039-148a-429b-ba25-94b074613105")
+		)
+		(pin "5V_OUT" output
+			(at 210.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f801faa2-d205-4f84-981c-53b631670aab")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(page "4")
 				)
 			)
 		)
