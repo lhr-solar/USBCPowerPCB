@@ -601,6 +601,18 @@
           "label": "P/N",
           "name": "P/N",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "If",
+          "name": "If",
+          "show": false
         }
       ],
       "filter_string": "",
