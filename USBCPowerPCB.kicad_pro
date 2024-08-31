@@ -672,6 +672,10 @@
     [
       "4f21da9f-d1d7-4b66-a00f-51f47ae1c74b",
       "5V Buck Converter"
+    ],
+    [
+      "3390d9c6-6b88-417e-a6aa-b25c6fe8fa66",
+      "5V ORring Diode and Isolator"
     ]
   ],
   "text_variables": {}

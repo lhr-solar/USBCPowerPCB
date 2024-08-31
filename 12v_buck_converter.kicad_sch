@@ -3185,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/srp1265a-1391487.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Bourns/SRP1265A-5R6M?qs=7z%252BmIopC6%2FKPWKEc%2Fy%252BgIw%3D%3D"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -4386,7 +4386,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -4395,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -4405,6 +4405,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 250.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "APTD2012LCGCK"
 			(at 250.19 88.9 0)
 			(effects
 				(font

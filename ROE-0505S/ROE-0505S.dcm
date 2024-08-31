@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ROE-0505S
+D DC/DC Converter Isolated 5V 200mA 1W Recom 1W Isolated DC-DC Converter, Vin 4.5  5.5 V dc, Vout 5V dc, I/O isolation 1000V dc
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/495e80eee4d2dcc0dec1cd3434ca70b3.pdf
+$ENDCMP
+#
+#End Doc Library

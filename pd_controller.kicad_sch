@@ -2738,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 114.3) (xy 27.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe1100a-5470-45cc-aefd-97360e1cbfa4")
-	)
-	(wire
-		(pts
 			(xy 72.39 137.16) (xy 72.39 135.89)
 		)
 		(stroke
@@ -3358,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 62.23) (xy 128.27 62.23)
+			(xy 124.46 62.23) (xy 128.27 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3378,6 +3368,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 114.3) (xy 27.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45b9875-38e2-4b7c-a007-6bc54f3b3cc3")
+	)
+	(wire
+		(pts
 			(xy 120.65 53.34) (xy 114.3 53.34)
 		)
 		(stroke
@@ -3388,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 62.23) (xy 120.65 60.96)
+			(xy 124.46 62.23) (xy 124.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3478,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 111.76 60.96)
+			(xy 124.46 60.96) (xy 111.76 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +4973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -4982,7 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APTD2012LCGCK-1102037.pdf"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -4992,6 +4992,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 264.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "APTD2012LCGCK"
 			(at 264.16 54.61 0)
 			(effects
 				(font
@@ -5364,7 +5373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71080b47-5176-477d-9170-f3840f4f83b9")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 90.932 117.602 0)
 			(effects
 				(font
@@ -5415,7 +5424,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7579f840-dc5b-4da1-9a71-492098337bb1")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 65.532 117.602 0)
 			(effects
 				(font
@@ -5481,7 +5490,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5836,7 +5845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "942900a9-368e-4b5a-934a-3bfafc434120")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 116.332 117.602 0)
 			(effects
 				(font
@@ -5887,7 +5896,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7102,7 +7111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de4c5fae-f082-4b69-a871-0f5beaaaf0ae")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 45.212 117.602 0)
 			(effects
 				(font
@@ -7153,7 +7162,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
