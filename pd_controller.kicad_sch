@@ -4143,7 +4143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 210.82 105.41 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 210.82 92.71 0)
 			(effects
 				(font
@@ -6029,7 +6029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 266.7 73.66 0)
 			(effects
 				(font
@@ -6128,7 +6128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_ICs:SO8_IRF9358TRPBF_INF"
 			(at 210.82 57.15 0)
 			(effects
 				(font
@@ -7290,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_ICs:SO8_IRF9358TRPBF_INF"
 			(at 210.82 69.85 0)
 			(effects
 				(font
