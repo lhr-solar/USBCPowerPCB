@@ -1881,7 +1881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8acd2d20-e4d2-42fb-8853-38e8f864541e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2041,7 +2041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafec5d3-f933-4341-bd25-d789624319e1")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -2091,7 +2091,7 @@
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

@@ -2114,7 +2114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c21024e-d12e-4584-9b24-ad9e745a4b77")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 39.37 121.92 0)
 			(effects
 				(font
@@ -2164,7 +2164,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2281,7 +2281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ca8666-ecc0-4786-a848-1e5b61eeb14e")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -2331,7 +2331,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2346,7 +2346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2752aedf-87db-47d2-9d4e-75676bf068d5")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 194.31 111.76 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33dee3db-02d2-42ff-a77d-301bbaebddba")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 158.75 114.3 0)
 			(effects
 				(font
@@ -2558,7 +2558,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a5e17e4-5556-4361-995c-25883ed0a8e0")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -2623,7 +2623,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b27e88-2ff2-4b02-a8c8-a33107f0d979")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -2996,7 +2996,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aab9b87-4b21-4789-a2bb-dc7dd8f84c23")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 259.08 115.57 0)
 			(effects
 				(font
@@ -3062,7 +3062,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe7a8b9-38b2-4eb2-aff4-38b17cc26ec1")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 214.63 107.95 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3d8995c-2e38-46b9-8722-f15f405a6d7b")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 204.47 120.65 0)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/3390d9c6-6b88-417e-a6aa-b25c6fe8fa66"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
