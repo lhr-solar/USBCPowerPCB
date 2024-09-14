@@ -5,6 +5,7 @@
 	(uuid "076c7cb0-493a-40fb-a48e-1f886efcdc82")
 	(paper "A4")
 	(title_block
+		(title "5V Buck Converter")
 		(company "Longhorn Racing Solar")
 		(comment 1 "https://cloud.wikis.utexas.edu/wiki/x/-qKvAQ")
 	)
@@ -1324,6 +1325,33 @@
 				(hide yes)
 			)
 		)
+		(property "Vdc" "50V"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "C2220C106M5RACTU"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f58fb56-fcc8-4abf-80eb-cc51be505928")
 		)
@@ -1358,7 +1386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "22uF"
 			(at 189.23 105.664 0)
 			(effects
 				(font
@@ -1386,6 +1414,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" "35V"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "C2012X5R1V226M125AC"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -1464,6 +1519,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "C0805C104M5RACTU"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" "50V"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc3c4c7a-c233-4c0d-8323-70b4bc078e46")
 		)
@@ -1489,7 +1571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54015847-2bc6-4462-a068-4c3333a0bd61")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 173.99 100.3299 0)
 			(effects
 				(font
@@ -1534,6 +1616,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "CRCW080573K2FKEA"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "VISHAY"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92cbbe99-cbde-4616-8a3b-9278b9cbf048")
 		)
@@ -1543,7 +1652,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1559,7 +1668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b217144-1ad7-48bc-a163-e9bdd7003eff")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 173.99 107.9499 0)
 			(effects
 				(font
@@ -1604,6 +1713,33 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "VISHAY"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0c21280-8b69-4b8f-b963-ee82fe4959eb")
 		)
@@ -1613,7 +1749,7 @@
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1681,6 +1817,33 @@
 				(hide yes)
 			)
 		)
+		(property "Vdc" ""
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS562231DRLR"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b65b68d6-e02d-418b-b77c-f285c510facf")
 		)
@@ -1718,7 +1881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8acd2d20-e4d2-42fb-8853-38e8f864541e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR065"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -1768,7 +1931,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1799,7 +1962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "UTSVT_Passive:INDPM110100X400N"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -1808,7 +1971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/wound01_e-1509533.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_07202023_SRP1038CC-3247812.pdf"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -1826,7 +1989,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "LBC3225T3R3MR"
+		(property "Mouser Part Number" "652-SRP1038CC-3R3M"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -1860,7 +2041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafec5d3-f933-4341-bd25-d789624319e1")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR064"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -1910,7 +2091,7 @@
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4f21da9f-d1d7-4b66-a00f-51f47ae1c74b"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
