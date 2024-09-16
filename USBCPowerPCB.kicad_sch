@@ -5848,7 +5848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242ddc7d-6e35-4dde-b688-af01066e2c2e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 224.79 74.93 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d2ebef-faa7-4a4e-88e5-50e058ab530e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 224.79 53.34 0)
 			(effects
 				(font
@@ -6221,7 +6221,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6857,7 +6857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b259a17-1afa-44a8-bb51-59f149a37d1e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 224.79 64.77 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8630b253-aa30-425b-8cec-09048b8c8906")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR023"
 			(at 220.98 161.29 0)
 			(effects
 				(font
@@ -10087,7 +10087,7 @@
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR028")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10871,7 +10871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b07512-6bf0-415d-ba5c-083b452fae59")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 224.79 46.99 0)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11599,6 +11599,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "Korean Hroparts Elec"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " TYPE-C-31-M-17"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B9"
 			(uuid "6611379d-3905-4175-ad25-3f05cc34ef38")
 		)
@@ -12238,7 +12256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c604b74d-8998-47a1-8bfc-2f01e0ef7f6b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 224.79 81.28 0)
 			(effects
 				(font
@@ -12288,7 +12306,7 @@
 		(instances
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
