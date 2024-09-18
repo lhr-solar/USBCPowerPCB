@@ -1319,7 +1319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -1355,7 +1355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C2220C106M5RACTU"
+		(property "Mouser Part Number" " GRM21BR61H106KE43L "
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -1364,7 +1364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KEMET"
+		(property "Manufacturer_Name" "Murata"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -1524,7 +1524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.6448 107.95 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Taiyo Yuden"
+		(property "Manufacturer_Name" "TDK"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -1569,7 +1569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " GMK325BJ226MM-P "
+		(property "Mouser Part Number" "C2012X5R1V226M125AC"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -1934,7 +1934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.8048 107.95 0)
 			(effects
 				(font
@@ -1961,7 +1961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vdc" "50V"
+		(property "Vdc" "35V"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Taiyo Yuden"
+		(property "Manufacturer_Name" "TDK"
 			(at 191.77 104.14 0)
 			(effects
 				(font
@@ -1979,7 +1979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " GMK325BJ226MM-P "
+		(property "Mouser Part Number" "C2012X5R1V226M125AC"
 			(at 191.77 104.14 0)
 			(effects
 				(font
