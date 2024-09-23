@@ -4195,8 +4195,8 @@
 		(uuid 65e742a1-4b96-4e36-891a-07a6bf5686f7)
 	)
 	(rectangle
-		(start 254 35.56)
-		(end 274.32 50.8)
+		(start 254 33.02)
+		(end 274.32 48.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -4231,7 +4231,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 268.478 33.274 0)
+		(at 268.478 30.734 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8032,7 +8032,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 257.81 39.37 0)
+		(at 257.81 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8041,7 +8041,7 @@
 		(fields_autoplaced yes)
 		(uuid "51deaf8c-872c-4c77-9d0f-c94b8dc15b9a")
 		(property "Reference" "H1"
-			(at 260.35 38.0999 0)
+			(at 260.35 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8050,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 260.35 40.6399 0)
+			(at 260.35 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8059,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8077,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8086,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8095,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,7 +8104,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8113,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8122,7 @@
 			)
 		)
 		(property "PART_REV" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8131,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8140,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8149,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +8158,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8167,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8176,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8185,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 257.81 39.37 0)
+			(at 257.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8858,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 257.81 45.72 0)
+		(at 257.81 43.18 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8867,7 +8867,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a3e569a-37d9-4853-8c92-427b4c119bf8")
 		(property "Reference" "H2"
-			(at 260.35 44.4499 0)
+			(at 260.35 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8876,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 260.35 46.9899 0)
+			(at 260.35 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8885,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8903,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8912,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8921,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8930,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +8939,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8948,7 @@
 			)
 		)
 		(property "PART_REV" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +8957,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +8966,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +8975,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8984,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8993,7 +8993,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9002,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9011,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 257.81 45.72 0)
+			(at 257.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +9522,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 267.97 39.37 0)
+		(at 267.97 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9531,7 +9531,7 @@
 		(fields_autoplaced yes)
 		(uuid "7677d1e8-3ff0-4a0f-8eed-fc69840b802c")
 		(property "Reference" "H3"
-			(at 270.51 38.0999 0)
+			(at 270.51 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9540,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 270.51 40.6399 0)
+			(at 270.51 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9549,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +9558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9567,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9576,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +9585,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,7 +9594,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9603,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9612,7 +9612,7 @@
 			)
 		)
 		(property "PART_REV" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9621,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9630,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9648,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9657,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9666,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9675,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 267.97 39.37 0)
+			(at 267.97 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14350,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 267.97 45.72 0)
+		(at 267.97 43.18 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14359,7 +14359,7 @@
 		(fields_autoplaced yes)
 		(uuid "efe792f4-32de-4e40-85e0-dd34a387f938")
 		(property "Reference" "H4"
-			(at 270.51 44.4499 0)
+			(at 270.51 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14368,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 270.51 46.9899 0)
+			(at 270.51 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14377,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,7 +14395,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14404,7 +14404,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,7 +14413,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,7 +14422,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,7 +14431,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14440,7 +14440,7 @@
 			)
 		)
 		(property "PART_REV" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +14449,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14458,7 +14458,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14467,7 +14467,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +14476,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,7 +14485,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14503,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 267.97 45.72 0)
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
