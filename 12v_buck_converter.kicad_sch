@@ -836,7 +836,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -853,7 +853,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -879,7 +879,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -897,7 +897,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -935,7 +935,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5052,15 +5052,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+12V")
 		(at 228.6 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7688b8f5-8949-41e1-8be6-3029f6353b08")
-		(property "Reference" "#PWR059"
+		(uuid "881f889b-e378-43be-8f7d-506184307797")
+		(property "Reference" "#PWR048"
 			(at 228.6 111.76 0)
 			(effects
 				(font
@@ -5069,8 +5069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 228.6 104.394 0)
+		(property "Value" "+12V"
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 228.6 107.95 0)
 			(effects
 				(font
@@ -5105,12 +5105,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "306785d5-98f6-4e0a-b215-449e74f82b39")
+			(uuid "0cf89bf7-47f1-48b8-84fd-d39e05167afb")
 		)
 		(instances
 			(project ""
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
-					(reference "#PWR059")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
