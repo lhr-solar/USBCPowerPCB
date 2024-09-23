@@ -10,6 +10,108 @@
 		(comment 1 "https://cloud.wikis.utexas.edu/wiki/x/-qKvAQ")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2064,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 114.3) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7d93d6-8562-475d-b793-50029e905995")
+	)
+	(wire
+		(pts
 			(xy 109.22 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -2111,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "958c4e65-18ee-40b5-9538-96940a837ede")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd710cc-288d-4398-b547-32955d60695c")
 	)
 	(wire
 		(pts
@@ -2341,6 +2463,16 @@
 			(type default)
 		)
 		(uuid "ef44503d-a8e4-4867-9a82-8d20b76613fc")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 170.18 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0928a21-c500-440b-9f4b-2cba71cf51e2")
 	)
 	(wire
 		(pts
@@ -5815,6 +5947,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8f9412b-2931-4ef0-9ec3-d2ae3e61c21d")
+		(property "Reference" "TP16"
+			(at 180.086 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_SET"
+			(at 180.086 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2843a617-1d32-466c-8676-ecaf0e9f3922")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 90.17 0)
 		(unit 1)
@@ -6349,6 +6547,73 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df73693f-db9a-493f-b350-113f751363c2")
+		(property "Reference" "TP14"
+			(at 172.72 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_UVLO"
+			(at 172.72 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a383bf9-4dcf-4969-bc29-c46f0556a9bb")
+		)
+		(instances
+			(project ""
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/01d27e83-9627-42d8-8cf9-628e44513f14"
+					(reference "TP14")
 					(unit 1)
 				)
 			)

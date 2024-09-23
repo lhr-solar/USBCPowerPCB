@@ -4915,7 +4915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -5099,7 +5099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 215.9 140.97 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 215.9 132.08 0)
 			(effects
 				(font
@@ -6713,7 +6713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 231.14 137.16 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -7212,7 +7212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 228.6 154.94 0)
 			(effects
 				(font
@@ -7856,7 +7856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 190.5 154.94 0)
 			(effects
 				(font
@@ -10458,7 +10458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 172.72 154.94 0)
 			(effects
 				(font
@@ -10910,7 +10910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 215.9 154.94 0)
 			(effects
 				(font
