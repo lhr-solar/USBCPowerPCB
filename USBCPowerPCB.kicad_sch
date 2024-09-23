@@ -2995,6 +2995,12 @@
 		(uuid "279e8520-b8af-4287-9864-b6bc088cfb79")
 	)
 	(junction
+		(at 210.82 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce4150f-5bb4-4d58-9e72-1e38cb3163ee")
+	)
+	(junction
 		(at 177.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3011,6 +3017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78064d61-6e53-499d-89a2-3fbf328852df")
+	)
+	(junction
+		(at 208.28 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "819209b5-4feb-481a-b69e-a64383cb866c")
 	)
 	(junction
 		(at 63.5 99.06)
@@ -3121,6 +3133,16 @@
 			(type default)
 		)
 		(uuid "0e615428-496e-41f2-a8ac-a2bef5a7a330")
+	)
+	(wire
+		(pts
+			(xy 213.36 154.94) (xy 213.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1150fb07-70c0-4dba-81fd-398ea31115e1")
 	)
 	(wire
 		(pts
@@ -3254,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 156.21) (xy 195.58 156.21)
+			(xy 194.31 156.21) (xy 190.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3324,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 154.94) (xy 199.39 156.21)
+			(xy 194.31 154.94) (xy 194.31 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3344,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 154.94) (xy 195.58 156.21)
+			(xy 190.5 154.94) (xy 190.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3444,6 +3466,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 154.94) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629ce61b-c0ac-4718-a32b-9f98ff226a6a")
+	)
+	(wire
+		(pts
 			(xy 115.57 132.08) (xy 115.57 134.62)
 		)
 		(stroke
@@ -3461,6 +3493,16 @@
 			(type default)
 		)
 		(uuid "67edfef8-8a68-40ff-b18a-b000200bbc0f")
+	)
+	(wire
+		(pts
+			(xy 208.28 156.21) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6968a9b3-cc57-4199-96b1-dcf9afdc0dbf")
 	)
 	(wire
 		(pts
@@ -3654,6 +3696,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 154.94) (xy 205.74 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960ac18e-77fd-47cb-843c-7a31504910a3")
+	)
+	(wire
+		(pts
 			(xy 46.99 66.04) (xy 46.99 67.31)
 		)
 		(stroke
@@ -3691,6 +3743,16 @@
 			(type default)
 		)
 		(uuid "9cc87520-04de-4582-944a-bb66b333cf9c")
+	)
+	(wire
+		(pts
+			(xy 213.36 156.21) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01a3e4c-9155-4cbc-a14a-77c23c3d4eaf")
 	)
 	(wire
 		(pts
@@ -4044,6 +4106,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 156.21) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac224b6-4595-410e-9baa-832e8fc00f2a")
+	)
+	(wire
+		(pts
 			(xy 115.57 152.4) (xy 115.57 154.94)
 		)
 		(stroke
@@ -4234,7 +4306,7 @@
 		)
 		(uuid "c07d7bfb-c067-4a07-83c2-67632d43cf26")
 	)
-	(label "5V_ISOOUT"
+	(label "5V_ISO"
 		(at 200.66 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4256,7 +4328,7 @@
 		)
 		(uuid "135b6b97-112a-43eb-bcb9-81fee0f86062")
 	)
-	(label "5V_ISOOUT"
+	(label "5V_ISO"
 		(at 219.71 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4377,7 +4449,7 @@
 		)
 		(uuid "73c02dea-e553-4d66-88fd-710f8c8d4f7e")
 	)
-	(label "5V_ISOOUT"
+	(label "5V_ISO"
 		(at 224.79 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4399,7 +4471,7 @@
 		)
 		(uuid "78eb437d-d4ae-4f2f-9718-7d29ce877529")
 	)
-	(label "5V_ISOOUT"
+	(label "5V_ISO"
 		(at 240.03 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4443,7 +4515,7 @@
 		)
 		(uuid "b6b367f5-b426-47c9-87d9-a69cc6546d45")
 	)
-	(label "5V_ISOOUT"
+	(label "5V_ISO"
 		(at 154.94 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5731,6 +5803,189 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a8b8ce-1060-4da5-9bf4-e6f62d1e4cd6")
+		(property "Reference" "TP18"
+			(at 214.63 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 214.63 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 218.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 213.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e2060d0-0b17-4638-923c-45aa57be44f1")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 154.94 0)
 		(unit 1)
@@ -5814,7 +6069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_ISOOUT_TP"
+		(property "Value" "5V_ISO_TP"
 			(at 218.44 130.0479 0)
 			(effects
 				(font
@@ -6433,6 +6688,190 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3584d6b0-705e-4d2b-ae20-0a5a9b9e6781")
+		(property "Reference" "TP17"
+			(at 209.55 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 209.55 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 208.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf2cf4b-2c31-4183-be3a-4346273bd842")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 231.14 53.34 0)
 		(mirror y)
@@ -6452,7 +6891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V_ISOOUT_PIN"
+		(property "Value" "5V_ISO_PIN"
 			(at 232.41 55.8799 0)
 			(effects
 				(font
@@ -7830,7 +8269,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 195.58 154.94 0)
+		(at 190.5 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7839,7 +8278,7 @@
 		(dnp no)
 		(uuid "5ab9df02-51be-4270-93f4-a060dfeb2346")
 		(property "Reference" "TP2"
-			(at 198.12 146.304 0)
+			(at 193.04 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,8 +8286,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_UNISO_TP"
-			(at 198.12 148.844 0)
+		(property "Value" "5V_TP"
+			(at 193.04 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8296,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 190.5 154.94 0)
+			(at 185.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +8305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 154.94 0)
+			(at 185.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +8314,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +8323,7 @@
 			)
 		)
 		(property "Vdc" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +8332,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8341,7 @@
 			)
 		)
 		(property "CUI_purchase_URL" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +8350,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +8359,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8368,7 @@
 			)
 		)
 		(property "PART_REV" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +8377,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +8386,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +8395,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +8404,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +8413,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8422,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +8431,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 195.58 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +10236,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V_UNISOOUT_PIN"
+		(property "Value" "5V_OUT_PIN"
 			(at 232.41 71.1199 0)
 			(effects
 				(font
@@ -10300,7 +10739,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 199.39 154.94 0)
+		(at 194.31 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10310,7 +10749,7 @@
 		(fields_autoplaced yes)
 		(uuid "9020400a-0c6c-472e-8860-f70554604b22")
 		(property "Reference" "#PWR016"
-			(at 199.39 158.75 0)
+			(at 194.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10758,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 199.39 149.86 0)
+			(at 194.31 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 154.94 0)
+			(at 194.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 154.94 0)
+			(at 194.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 154.94 0)
+			(at 194.31 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V_OUT_TP"
+		(property "Value" "12V_TP"
 			(at 180.34 148.844 0)
 			(effects
 				(font
@@ -10697,7 +11136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_UNISOOUT"
+		(property "Value" "5V_OUT"
 			(at 209.55 73.66 0)
 			(effects
 				(font
@@ -10893,7 +11332,7 @@
 		(dnp no)
 		(uuid "a7d740df-6a6c-4cbd-9a5b-8c1c527ded2e")
 		(property "Reference" "TP5"
-			(at 213.36 150.3679 0)
+			(at 210.058 146.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,7 +11341,7 @@
 			)
 		)
 		(property "Value" "GND_TP"
-			(at 213.36 152.9079 0)
+			(at 210.058 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +11349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 215.9 154.94 0)
 			(effects
 				(font
@@ -12820,7 +13259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V_ISOOUT"
+		(property "Value" "5V_ISO"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -13720,6 +14159,190 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e84267f8-d900-44ec-ab20-1e2149b26835")
+		(property "Reference" "TP19"
+			(at 204.47 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 204.47 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdc" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f366e474-dc42-41b8-b492-378fea3bb200")
+		)
+		(instances
+			(project "USBCPowerPCB"
+				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
