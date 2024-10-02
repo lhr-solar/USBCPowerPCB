@@ -3047,7 +3047,7 @@
 		(uuid "1a0530e2-d319-4d34-8d31-b6e33dd1a1a3")
 	)
 	(no_connect
-		(at 201.93 55.88)
+		(at 201.93 60.96)
 		(uuid "bd060774-462d-4d0c-a079-4dd81582a344")
 	)
 	(no_connect
@@ -3416,6 +3416,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 55.88) (xy 196.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577089a0-3766-448b-a8a2-9bee33c3e527")
+	)
+	(wire
+		(pts
 			(xy 226.06 43.18) (xy 224.79 43.18)
 		)
 		(stroke
@@ -3423,16 +3433,6 @@
 			(type default)
 		)
 		(uuid "58656b92-041b-4b2a-a60d-35ecc0918913")
-	)
-	(wire
-		(pts
-			(xy 200.66 60.96) (xy 201.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c11d734-f577-4418-a3b4-e9dc9b856ccc")
 	)
 	(wire
 		(pts
@@ -3616,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 55.88) (xy 196.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e1f088-2f0c-4523-8f45-98d2a686c049")
+	)
+	(wire
+		(pts
 			(xy 100.33 132.08) (xy 100.33 134.62)
 		)
 		(stroke
@@ -3783,16 +3793,6 @@
 			(type default)
 		)
 		(uuid "ac0c64b6-a5a0-434c-bd53-4b5a655d5f43")
-	)
-	(wire
-		(pts
-			(xy 200.66 60.96) (xy 200.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac2c8326-9c34-46d4-b622-414ffa2ddab8")
 	)
 	(wire
 		(pts
@@ -8793,7 +8793,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 200.66 62.23 0)
+		(at 196.85 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8801,7 +8801,7 @@
 		(dnp no)
 		(uuid "6a06ba5d-7ef2-4c35-a85b-a0bfcb5aa0a3")
 		(property "Reference" "#PWR019"
-			(at 200.66 67.31 0)
+			(at 196.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8810,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 199.898 66.04 0)
+			(at 196.088 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 63.5 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 63.5 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 200.66 62.23 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
