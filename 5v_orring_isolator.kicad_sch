@@ -971,6 +971,12 @@
 		)
 	)
 	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d364cbd3-41f3-4eb2-af02-d823e0dd7620")
+	)
+	(junction
 		(at 83.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -991,6 +997,16 @@
 			(type default)
 		)
 		(uuid "01730ec0-f59c-4d05-bca7-2e5cdc7c6afc")
+	)
+	(wire
+		(pts
+			(xy 204.47 102.87) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16650b24-8f5d-4cf4-81af-e8ed86e2031e")
 	)
 	(wire
 		(pts
@@ -1034,13 +1050,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 204.47 99.06)
+			(xy 201.93 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3bbaee89-d2f0-42cc-ba1a-e7c445130e3e")
+	)
+	(wire
+		(pts
+			(xy 203.2 102.87) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c516b7-6448-483c-8aa6-9bb5a95eb7f4")
 	)
 	(wire
 		(pts
@@ -1091,6 +1117,16 @@
 			(type default)
 		)
 		(uuid "55172348-f690-4dd5-ad20-f209deb526b8")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 204.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c54d13-e5be-4827-b94a-bc5986ec4f87")
 	)
 	(wire
 		(pts
@@ -1279,7 +1315,7 @@
 	)
 	(text "Resettable PTC fuse\nHold current = 160mA\nTrip current = 370mA"
 		(exclude_from_sim no)
-		(at 218.694 104.648 0)
+		(at 218.948 108.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1319,6 +1355,17 @@
 			(justify right bottom)
 		)
 		(uuid "38960112-6fc3-4b08-891a-237d129bfd76")
+	)
+	(label "5V_ISO_RAW"
+		(at 204.47 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75c4373c-695b-4945-8e33-bfede2664e16")
 	)
 	(hierarchical_label "SAFE_5V_IN"
 		(shape input)
