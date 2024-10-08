@@ -10,108 +10,6 @@
 		(comment 1 "https://cloud.wikis.utexas.edu/wiki/x/-qKvAQ")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2214,12 +2112,6 @@
 		)
 	)
 	(junction
-		(at 102.87 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25344ebc-b61a-4b84-9e24-d2feca7b3ea5")
-	)
-	(junction
 		(at 190.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2238,16 +2130,22 @@
 		(uuid "5d3663b2-b616-4eef-88dd-c4d4bd19e163")
 	)
 	(junction
+		(at 48.26 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0df03a-00b7-4cbd-973c-102274b772ca")
+	)
+	(junction
+		(at 102.87 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979e50e5-8b41-4c83-be00-0124d4c0db0a")
+	)
+	(junction
 		(at 213.36 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c07aee5-b06e-4eed-9f9b-300a2a983b2d")
-	)
-	(junction
-		(at 27.94 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac03eb30-ce06-4322-890b-c29efe60fff8")
 	)
 	(junction
 		(at 213.36 50.8)
@@ -2262,22 +2160,22 @@
 		(uuid "c062f695-39bb-401b-a061-082bd6334dda")
 	)
 	(junction
-		(at 129.54 62.23)
+		(at 27.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d63b4be6-3d12-4523-964d-496f759f3839")
+		(uuid "ce4b295c-7f76-4583-bf01-e93a881d7a8b")
 	)
 	(junction
 		(at 72.39 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eeb56d36-af12-43bd-86d3-357c6908bb1b")
+		(uuid "d10bb391-593b-43b3-802a-898e3368dda0")
 	)
 	(junction
-		(at 48.26 125.73)
+		(at 129.54 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef488d17-9b0d-4253-9aa5-50163f22a0ff")
+		(uuid "d63b4be6-3d12-4523-964d-496f759f3839")
 	)
 	(junction
 		(at 203.2 63.5)
@@ -2342,6 +2240,16 @@
 			(type default)
 		)
 		(uuid "060e324b-a6f2-4546-b560-05405b5deeec")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 48.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0637eaf5-cf11-43e1-a73e-ed9034dc0d13")
 	)
 	(wire
 		(pts
@@ -2495,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 88.9 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2549e306-1d7b-43d6-b9de-d389ea3fedb7")
-	)
-	(wire
-		(pts
 			(xy 111.76 71.12) (xy 125.73 71.12)
 		)
 		(stroke
@@ -2525,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 48.26 124.46)
+			(xy 48.26 124.46) (xy 48.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2542,6 +2440,26 @@
 			(type default)
 		)
 		(uuid "29dd5ecf-7998-4d6d-b11e-d27fdb15cbfa")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b25ebdf-4576-4bb1-a572-0388dc1f9fe4")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b273686-9f91-4486-9766-940c17701072")
 	)
 	(wire
 		(pts
@@ -2695,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 124.46) (xy 102.87 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b814285-5dfc-4976-96c6-f33e10086e02")
-	)
-	(wire
-		(pts
 			(xy 72.39 114.3) (xy 72.39 116.84)
 		)
 		(stroke
@@ -2775,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 114.3 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c5bee6a-ed51-4550-8a9f-1dacafe76d73")
-	)
-	(wire
-		(pts
 			(xy 139.7 72.39) (xy 148.59 72.39)
 		)
 		(stroke
@@ -2812,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "72ed9d72-38e7-40a0-a028-7650b1c3faac")
-	)
-	(wire
-		(pts
-			(xy 27.94 125.73) (xy 43.18 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fd5b51-9de8-49f6-85c8-3c0e145b1936")
 	)
 	(wire
 		(pts
@@ -2865,6 +2753,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 125.73) (xy 30.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b23e18-ab0c-4042-b88e-1ef3c60c4980")
+	)
+	(wire
+		(pts
 			(xy 49.53 55.88) (xy 50.8 55.88)
 		)
 		(stroke
@@ -2885,16 +2783,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 48.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6dde31-2b0e-4d34-9eb0-847bccdded73")
-	)
-	(wire
-		(pts
 			(xy 156.21 58.42) (xy 111.76 58.42)
 		)
 		(stroke
@@ -2905,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 125.73) (xy 27.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f184455-bcbb-452a-8e2c-95537a2a42fa")
+	)
+	(wire
+		(pts
 			(xy 139.7 63.5) (xy 139.7 62.23)
 		)
 		(stroke
@@ -2912,6 +2810,16 @@
 			(type default)
 		)
 		(uuid "912a4bbd-092b-4727-a251-2516b4f8821a")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 72.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925b6004-7aa4-45c2-ae2c-4c415047996c")
 	)
 	(wire
 		(pts
@@ -2942,26 +2850,6 @@
 			(type default)
 		)
 		(uuid "98403e12-c113-4b02-b7a0-c204ce64dad6")
-	)
-	(wire
-		(pts
-			(xy 27.94 125.73) (xy 27.94 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9862391a-a30f-4f4e-a9cc-6a4164833a5f")
-	)
-	(wire
-		(pts
-			(xy 72.39 124.46) (xy 72.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ee75aa-b37e-4972-b78e-828574fd089d")
 	)
 	(wire
 		(pts
@@ -3025,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 102.87 127)
+			(xy 102.87 124.46) (xy 102.87 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3072,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "b1bebe3a-1446-49c4-b640-7cafcb1ab4df")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fd7dd8-aff1-4851-8cba-3c4e56146aa9")
 	)
 	(wire
 		(pts
@@ -3215,16 +3113,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 63.5 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8a4941-5b09-46fb-8d63-9ede4634bbaa")
-	)
-	(wire
-		(pts
 			(xy 212.09 76.2) (xy 212.09 74.93)
 		)
 		(stroke
@@ -3232,6 +3120,16 @@
 			(type default)
 		)
 		(uuid "dfe72758-94ba-4ef2-a18b-7e70441b12f3")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31a51c0-d16f-4bc6-88ac-3ed7b914847d")
 	)
 	(wire
 		(pts
@@ -3335,7 +3233,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 125.73) (xy 27.94 127)
+			(xy 27.94 124.46) (xy 27.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 72.39 128.27)
+			(xy 72.39 124.46) (xy 72.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +3468,7 @@
 		(uuid "19e06df5-91f5-4492-88f4-968e3acad7b6")
 	)
 	(label "VBUS_MIN"
-		(at 29.21 125.73 0)
+		(at 30.48 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3592,7 +3490,7 @@
 		(uuid "26c1f364-aaf0-4878-9ab5-0d39e5ab9ddf")
 	)
 	(label "VBUS_MAX"
-		(at 49.53 125.73 0)
+		(at 50.8 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3669,7 +3567,7 @@
 		(uuid "e77da31c-13d2-4290-870e-e927aa3b8307")
 	)
 	(label "ISNK_FINE"
-		(at 104.14 125.73 0)
+		(at 105.41 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3680,13 +3578,13 @@
 		(uuid "eedb8686-97b8-4b86-b768-238af89e07ba")
 	)
 	(label "ISNK_COARSE"
-		(at 87.63 125.73 180)
+		(at 74.93 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f1fcbeed-bc20-47f4-b3fb-1cee4a2cd166")
 	)
@@ -6572,372 +6470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71080b47-5176-477d-9170-f3840f4f83b9")
-		(property "Reference" "TP12"
-			(at 90.932 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ISNK_COARSE_TP"
-			(at 96.266 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 93.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vdc" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 88.9 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00721685-f788-4fd5-8319-cbdba3087daf")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7579f840-dc5b-4da1-9a71-492098337bb1")
-		(property "Reference" "TP11"
-			(at 65.532 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VBUS_MAX_TP"
-			(at 67.564 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 68.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vdc" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4e2e3a9-4a16-4531-a958-af93aa02a9f1")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 27.94 130.81 0)
 		(unit 1)
@@ -7668,189 +7200,6 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.3 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "942900a9-368e-4b5a-934a-3bfafc434120")
-		(property "Reference" "TP13"
-			(at 116.332 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ISNK_FINE_TP"
-			(at 118.364 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vdc" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 114.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77f2d1eb-121a-43e0-ab57-ac16d0ef2f71")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10421,189 +9770,6 @@
 			(project "USBCPowerPCB"
 				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 43.18 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de4c5fae-f082-4b69-a871-0f5beaaaf0ae")
-		(property "Reference" "TP10"
-			(at 45.212 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VBUS_MIN_TP"
-			(at 47.244 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vdc" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40180e5f-674f-44a8-a091-3a41e6fc1b0b")
-		)
-		(instances
-			(project "USBCPowerPCB"
-				(path "/f58400c5-df4b-4929-8d2b-33c0fe23fcd9/4ed27f5f-caef-4817-8da2-6ac4f08dfb73"
-					(reference "TP10")
 					(unit 1)
 				)
 			)

@@ -986,12 +986,6 @@
 		(uuid "5b2ec115-b5f5-4d09-82b7-24a8ce5ef0d6")
 	)
 	(junction
-		(at 148.59 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7da5f6f4-f308-43b0-b659-ad327b522be4")
-	)
-	(junction
 		(at 170.18 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1041,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 147.32 105.41)
+			(xy 143.51 100.33) (xy 143.51 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 153.67 105.41)
+			(xy 143.51 105.41) (xy 153.67 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 148.59 97.79)
+			(xy 147.32 100.33) (xy 147.32 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 147.32 100.33)
+			(xy 140.97 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 148.59 97.79)
+			(xy 147.32 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1308,16 +1302,6 @@
 			(type default)
 		)
 		(uuid "bb46b8de-34a1-484d-a69f-42b8c9f042e5")
-	)
-	(wire
-		(pts
-			(xy 148.59 97.79) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca7cedb-4b4b-484a-bbe6-12afa1d5c967")
 	)
 	(wire
 		(pts
@@ -1381,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 149.86 100.33)
+			(xy 147.32 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +1437,7 @@
 		(uuid "a1405836-5a47-437d-a069-fa75d2c3ecb8")
 	)
 	(label "SW"
-		(at 149.86 100.33 0)
+		(at 148.59 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
