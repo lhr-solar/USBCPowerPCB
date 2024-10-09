@@ -7641,7 +7641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:SO8_IRF9358TRPBF_INF"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 210.82 57.15 0)
 			(effects
 				(font
@@ -9869,7 +9869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_ICs:SO8_IRF9358TRPBF_INF"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 210.82 69.85 0)
 			(effects
 				(font
