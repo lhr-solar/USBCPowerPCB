@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "436500215"
+		(property "Mouser Part Number" ""
 			(at 207.01 40.64 0)
 			(effects
 				(font
@@ -5626,6 +5626,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "436500215"
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "323cd15c-bc82-4dcc-b691-79c9c0ce3c01")
 		)
@@ -5696,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C2012X5R1H335K125AB"
+		(property "Mouser Part Number" ""
 			(at 59.69 102.87 0)
 			(effects
 				(font
@@ -5823,6 +5832,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C2012X5R1H335K125AB"
 			(at 59.69 102.87 0)
 			(effects
 				(font
@@ -6603,7 +6621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 73099-0 "
+		(property "Mouser Part Number" ""
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -6712,6 +6730,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 73099-0 "
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -7972,7 +7999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -8117,6 +8144,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
 			(at 115.57 138.43 0)
 			(effects
 				(font
@@ -8635,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 595-ESD752DBZR "
+		(property "Mouser Part Number" "ESD752DBZR "
 			(at 77.47 59.69 0)
 			(effects
 				(font
@@ -8744,6 +8780,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ESD752DBZR "
 			(at 77.47 59.69 0)
 			(effects
 				(font
@@ -9258,7 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 88.9 138.43 0)
 			(effects
 				(font
@@ -9411,6 +9456,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "APTD2012LCGCK"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28238552-159d-4582-8c91-2c9332ca8b06")
 		)
@@ -9480,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C2012X5R1H335K125AB"
+		(property "Mouser Part Number" ""
 			(at 63.5 102.87 0)
 			(effects
 				(font
@@ -9607,6 +9661,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 63.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C2012X5R1H335K125AB"
 			(at 63.5 102.87 0)
 			(effects
 				(font
@@ -9854,7 +9917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 140.97 148.59 0)
 			(effects
 				(font
@@ -9989,6 +10052,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08055K10FKEAC "
+			(at 140.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0d76839-eaff-44a5-9cbd-1992d5c29725")
 		)
@@ -10068,7 +10140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 73099-2 "
+		(property "Mouser Part Number" ""
 			(at 252.73 132.08 0)
 			(effects
 				(font
@@ -10177,6 +10249,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 73099-2 "
 			(at 252.73 132.08 0)
 			(effects
 				(font
@@ -10631,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -10758,6 +10839,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K10FKEAC "
 			(at 154.94 148.59 0)
 			(effects
 				(font
@@ -11364,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "436500215"
+		(property "Mouser Part Number" ""
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -11473,6 +11563,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 436500415"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -11927,7 +12026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 140.97 138.43 0)
 			(effects
 				(font
@@ -12072,6 +12171,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
 			(at 140.97 138.43 0)
 			(effects
 				(font
@@ -12150,7 +12258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 127 138.43 0)
 			(effects
 				(font
@@ -12295,6 +12403,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
 			(at 127 138.43 0)
 			(effects
 				(font
@@ -12553,7 +12670,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " TYPE-C-31-M-17"
+		(property "Mouser Part Number" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " TYPE-C-31-M-17"
 			(at 33.02 106.68 0)
 			(effects
 				(font
@@ -12840,7 +12966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 115.57 148.59 0)
 			(effects
 				(font
@@ -12967,6 +13093,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 115.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K10FKEAC "
 			(at 115.57 148.59 0)
 			(effects
 				(font
@@ -13042,7 +13177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -13169,6 +13304,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 88.9 148.59 0)
 			(effects
 				(font
@@ -13393,7 +13537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-TVS2200DRVR "
+		(property "Mouser Part Number" ""
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -13502,6 +13646,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TVS2200DRVR "
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -13678,7 +13831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "436500215"
+		(property "Mouser Part Number" ""
 			(at 207.01 55.88 0)
 			(effects
 				(font
@@ -13795,6 +13948,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "436500215"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "904b81b1-50ab-42c6-bef6-e4243558900a")
 		)
@@ -13868,7 +14030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 100.33 148.59 0)
 			(effects
 				(font
@@ -14003,6 +14165,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4481f81-a6e2-4dce-8dc3-4fdd39499622")
 		)
@@ -14072,7 +14243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -14217,6 +14388,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
 			(at 100.33 138.43 0)
 			(effects
 				(font
@@ -14361,7 +14541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -14506,6 +14686,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "APTD2012LCGCK"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -15003,7 +15192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 127 148.59 0)
 			(effects
 				(font
@@ -15130,6 +15319,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 127 148.59 0)
 			(effects
 				(font

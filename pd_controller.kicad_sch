@@ -3989,7 +3989,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "BSL308PEH6327XTSA1"
+		(property "Mouser Part Number" ""
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "BSL308PEH6327XTSA1"
 			(at 209.55 105.41 0)
 			(effects
 				(font
@@ -4081,7 +4090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 200.66 58.42 0)
 			(effects
 				(font
@@ -4216,6 +4225,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 200.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "582982e9-1597-41ae-b704-1a2091e8dc9d")
 		)
@@ -4304,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "727-CYPD3177-24LQXQT"
+		(property "Mouser Part Number" ""
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -4413,6 +4431,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CYPD3177-24LQXQT"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -5078,7 +5105,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "BSL308PEH6327XTSA1"
+		(property "Mouser Part Number" ""
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "BSL308PEH6327XTSA1"
 			(at 209.55 92.71 0)
 			(effects
 				(font
@@ -5430,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
+		(property "Mouser Part Number" ""
 			(at 262.89 52.07 0)
 			(effects
 				(font
@@ -5583,6 +5619,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "APTD2012LCGCK"
+			(at 262.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec6ae8cc-dbf3-4ad1-b301-170d8ead1d3d")
 		)
@@ -5653,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C105K5PACTU"
+		(property "Mouser Part Number" ""
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -5780,6 +5825,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -5855,7 +5909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C105K5PACTU"
+		(property "Mouser Part Number" ""
 			(at 156.21 63.5 0)
 			(effects
 				(font
@@ -5982,6 +6036,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 156.21 63.5 0)
 			(effects
 				(font
@@ -6319,7 +6382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C105K5PACTU"
+		(property "Mouser Part Number" ""
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -6454,6 +6517,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C105K5PACTU"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37911d32-d238-475a-ba08-6a1a7e8e6bc7")
 		)
@@ -6524,7 +6596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08052K40FKEAC"
+		(property "Mouser Part Number" ""
 			(at 27.94 130.81 0)
 			(effects
 				(font
@@ -6651,6 +6723,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 27.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08052K40JNEA"
 			(at 27.94 130.81 0)
 			(effects
 				(font
@@ -6794,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 27.94 120.65 0)
 			(effects
 				(font
@@ -6921,6 +7002,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 27.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K10FKEAC "
 			(at 27.94 120.65 0)
 			(effects
 				(font
@@ -7259,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 199.39 95.25 0)
 			(effects
 				(font
@@ -7394,6 +7484,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080510K0FKEAC"
+			(at 199.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5150c730-40bf-4a6a-bdec-9d1fadc36c2d")
 		)
@@ -7464,7 +7563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C105K5PACTU"
+		(property "Mouser Part Number" ""
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7591,6 +7690,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K5PACTU"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -7794,7 +7902,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "IRF9358TRPBF"
+		(property "Mouser Part Number" ""
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRF9358TRPBF"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -7888,7 +8005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C104M5RACTU"
+		(property "Mouser Part Number" ""
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -8015,6 +8132,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -8285,7 +8411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "C0805C104M5RACTU"
+		(property "Mouser Part Number" ""
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -8420,6 +8546,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c56bfd65-55f2-4912-9861-ad42f6d53f06")
 		)
@@ -8491,7 +8626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08051K00FKEAC"
+		(property "Mouser Part Number" ""
 			(at 200.66 68.58 0)
 			(effects
 				(font
@@ -8618,6 +8753,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 200.66 68.58 0)
 			(effects
 				(font
@@ -8697,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08051K00FKEAC"
+		(property "Mouser Part Number" ""
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -8824,6 +8968,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08051K00FKEAC"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -8899,7 +9052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080551K0FKEAC"
+		(property "Mouser Part Number" ""
 			(at 35.56 73.66 0)
 			(effects
 				(font
@@ -9026,6 +9179,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080551K0FKEAC"
 			(at 35.56 73.66 0)
 			(effects
 				(font
@@ -9625,7 +9787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 262.89 62.23 0)
 			(effects
 				(font
@@ -9752,6 +9914,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 262.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K10FKEAC "
 			(at 262.89 62.23 0)
 			(effects
 				(font
@@ -10022,7 +10193,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "IRF9358TRPBF"
+		(property "Mouser Part Number" ""
+			(at 209.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "IRF9358TRPBF"
 			(at 209.55 69.85 0)
 			(effects
 				(font

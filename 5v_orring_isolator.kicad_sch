@@ -1588,7 +1588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "495-TBA2-2411"
+		(property "Mouser Part Number" ""
 			(at 191.77 101.6 0)
 			(effects
 				(font
@@ -1697,6 +1697,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TBA2-2411"
 			(at 191.77 101.6 0)
 			(effects
 				(font
@@ -1847,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW08055K10FKEAC "
+		(property "Mouser Part Number" ""
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -1974,6 +1983,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K10FKEAC "
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -2233,7 +2251,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "PTS120630V016"
+		(property "Mouser Part Number" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTS120630V016"
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -2393,7 +2420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-TPS2116DRLR"
+		(property "Mouser Part Number" ""
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -2502,6 +2529,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPS2116DRLR"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -2598,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -2725,6 +2761,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -2803,7 +2848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "CRCW080510K0FKEAC "
+		(property "Mouser Part Number" ""
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -2930,6 +2975,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080510K0FKEAC"
 			(at 83.82 106.68 0)
 			(effects
 				(font
