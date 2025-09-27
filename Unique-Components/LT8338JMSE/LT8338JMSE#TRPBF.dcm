@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8338JMSE#TRPBF
+D Switching Voltage Regulators 40V, 2.5A Low IQ Sync Step-Up Silent Sw
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt8338.pdf
+$ENDCMP
+#
+#End Doc Library
