@@ -59,10 +59,22 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|139200000|140110000|dc188956-5560-437c-a285-4931b02c5fbb|74f3d6cb-ffd4-42e3-9545-fc61a10e792a",
-        "hole_clearance|139400000|140110000|1ed442aa-66ad-4e54-85c4-148360b84875|74f3d6cb-ffd4-42e3-9545-fc61a10e792a",
-        "hole_clearance|144800000|140110000|769bd8ce-1694-4659-969b-3fb2d418542e|16f38ae7-bd65-4e43-b760-86e9100f4490",
-        "hole_clearance|145000000|140110000|0106b4bc-0942-467a-bc2b-63b1f9c292b0|16f38ae7-bd65-4e43-b760-86e9100f4490"
+        [
+          "hole_clearance|139200000|140110000|dc188956-5560-437c-a285-4931b02c5fbb|74f3d6cb-ffd4-42e3-9545-fc61a10e792a",
+          ""
+        ],
+        [
+          "hole_clearance|139400000|140110000|1ed442aa-66ad-4e54-85c4-148360b84875|74f3d6cb-ffd4-42e3-9545-fc61a10e792a",
+          ""
+        ],
+        [
+          "hole_clearance|144800000|140110000|769bd8ce-1694-4659-969b-3fb2d418542e|16f38ae7-bd65-4e43-b760-86e9100f4490",
+          ""
+        ],
+        [
+          "hole_clearance|145000000|140110000|0106b4bc-0942-467a-bc2b-63b1f9c292b0|16f38ae7-bd65-4e43-b760-86e9100f4490",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -74,16 +86,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -94,9 +109,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -108,10 +125,13 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -124,6 +144,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
@@ -143,10 +164,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -236,6 +258,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -430,10 +453,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -446,9 +474,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -466,7 +499,7 @@
   },
   "meta": {
     "filename": "USBCPowerPCB.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -481,6 +514,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -489,7 +523,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -708,6 +742,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
       "sort_field": "Mouser Part Number"
@@ -750,6 +785,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -765,20 +801,12 @@
       "Root"
     ],
     [
-      "4ed27f5f-caef-4817-8da2-6ac4f08dfb73",
-      "Power Delivery Controller"
+      "1fbf0a82-cda0-4e3a-9f49-4a775678e3ba",
+      "STUSB4500"
     ],
     [
-      "01d27e83-9627-42d8-8cf9-628e44513f14",
-      "12V Buck Converter"
-    ],
-    [
-      "4f21da9f-d1d7-4b66-a00f-51f47ae1c74b",
-      "5V Buck Converter"
-    ],
-    [
-      "3390d9c6-6b88-417e-a6aa-b25c6fe8fa66",
-      "5V ORring and Isolator"
+      "3e62f1c7-669e-4b49-913d-fd1a58c2c393",
+      "Boost Converter"
     ]
   ],
   "text_variables": {}
